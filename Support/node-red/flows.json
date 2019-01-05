@@ -1,0 +1,4487 @@
+[
+    {
+        "id": "cc7a15ad.2c246",
+        "type": "tab",
+        "label": "Ninjago City Lights",
+        "disabled": false,
+        "info": ""
+    },
+    {
+        "id": "29733b9f.023bc4",
+        "type": "subflow",
+        "name": "Phone",
+        "info": "",
+        "category": "",
+        "in": [
+            {
+                "x": 620,
+                "y": 260,
+                "wires": [
+                    {
+                        "id": "55f2997c.ef386"
+                    }
+                ]
+            }
+        ],
+        "out": []
+    },
+    {
+        "id": "2985e277.78a676",
+        "type": "subflow",
+        "name": "Stall",
+        "info": "",
+        "category": "",
+        "in": [
+            {
+                "x": 660,
+                "y": 440,
+                "wires": [
+                    {
+                        "id": "da7fa858.e3d15"
+                    }
+                ]
+            }
+        ],
+        "out": []
+    },
+    {
+        "id": "752a07e4.0379c",
+        "type": "subflow",
+        "name": "Bridge Decoration Lights",
+        "info": "",
+        "category": "",
+        "in": [
+            {
+                "x": 640,
+                "y": 280,
+                "wires": [
+                    {
+                        "id": "2759cc64.05b0dc"
+                    },
+                    {
+                        "id": "654442e9.05edac"
+                    }
+                ]
+            }
+        ],
+        "out": []
+    },
+    {
+        "id": "f816db9b.63b0f8",
+        "type": "subflow",
+        "name": "Lanterns",
+        "info": "",
+        "category": "",
+        "in": [
+            {
+                "x": 580,
+                "y": 280,
+                "wires": [
+                    {
+                        "id": "49628c24.4055ac"
+                    }
+                ]
+            }
+        ],
+        "out": []
+    },
+    {
+        "id": "97e27b97.7485b8",
+        "type": "subflow",
+        "name": "Bed Room",
+        "info": "",
+        "category": "",
+        "in": [
+            {
+                "x": 620,
+                "y": 300,
+                "wires": [
+                    {
+                        "id": "146914b5.d2cb8b"
+                    }
+                ]
+            }
+        ],
+        "out": []
+    },
+    {
+        "id": "94dd7d4d.98b8d",
+        "type": "subflow",
+        "name": "Tea Room",
+        "info": "",
+        "category": "",
+        "in": [
+            {
+                "x": 620,
+                "y": 300,
+                "wires": [
+                    {
+                        "id": "49c73b42.980f7c"
+                    }
+                ]
+            }
+        ],
+        "out": []
+    },
+    {
+        "id": "2479442c.f6fc2c",
+        "type": "subflow",
+        "name": "Billboard",
+        "info": "",
+        "category": "",
+        "in": [
+            {
+                "x": 640,
+                "y": 280,
+                "wires": [
+                    {
+                        "id": "491770a6.7d80a"
+                    },
+                    {
+                        "id": "f6bcf624.944478"
+                    }
+                ]
+            }
+        ],
+        "out": []
+    },
+    {
+        "id": "bb9b587.bba2828",
+        "type": "subflow",
+        "name": "Restaurant",
+        "info": "",
+        "category": "",
+        "in": [
+            {
+                "x": 600,
+                "y": 300,
+                "wires": [
+                    {
+                        "id": "38a8979d.799118"
+                    }
+                ]
+            }
+        ],
+        "out": []
+    },
+    {
+        "id": "845ce9a.fbc6218",
+        "type": "subflow",
+        "name": "Restaurant Decoration Lights",
+        "info": "",
+        "category": "",
+        "in": [
+            {
+                "x": 580,
+                "y": 240,
+                "wires": [
+                    {
+                        "id": "2e2da1c2.c25d7e"
+                    },
+                    {
+                        "id": "ed5f6b8c.281a"
+                    }
+                ]
+            }
+        ],
+        "out": []
+    },
+    {
+        "id": "4db881d7.7503f8",
+        "type": "subflow",
+        "name": "Restaurant Lanterns",
+        "info": "",
+        "category": "",
+        "in": [
+            {
+                "x": 580,
+                "y": 260,
+                "wires": [
+                    {
+                        "id": "2320a13e.9f4ed6"
+                    }
+                ]
+            }
+        ],
+        "out": []
+    },
+    {
+        "id": "dbe2a1e7.2a0598",
+        "type": "subflow",
+        "name": "Shop",
+        "info": "",
+        "category": "",
+        "in": [
+            {
+                "x": 660,
+                "y": 280,
+                "wires": [
+                    {
+                        "id": "7a670dfa.d1653c"
+                    }
+                ]
+            }
+        ],
+        "out": []
+    },
+    {
+        "id": "84472f1.1376bd",
+        "type": "subflow",
+        "name": "Store 2",
+        "info": "",
+        "category": "",
+        "in": [
+            {
+                "x": 580,
+                "y": 260,
+                "wires": [
+                    {
+                        "id": "cb1b9ed9.e77bb8"
+                    }
+                ]
+            }
+        ],
+        "out": []
+    },
+    {
+        "id": "332f23ef.59d28c",
+        "type": "subflow",
+        "name": "Tree Decoration Lights",
+        "info": "",
+        "category": "",
+        "in": [
+            {
+                "x": 660,
+                "y": 280,
+                "wires": [
+                    {
+                        "id": "1770acd5.450a43"
+                    },
+                    {
+                        "id": "e2d0102.02a337"
+                    }
+                ]
+            }
+        ],
+        "out": []
+    },
+    {
+        "id": "f618c951.590058",
+        "type": "subflow",
+        "name": "Bar",
+        "info": "",
+        "category": "",
+        "in": [
+            {
+                "x": 580,
+                "y": 280,
+                "wires": [
+                    {
+                        "id": "f49f6699.f3ba3"
+                    }
+                ]
+            }
+        ],
+        "out": []
+    },
+    {
+        "id": "38c06923.d5a96e",
+        "type": "subflow",
+        "name": "Obstacle Light",
+        "info": "",
+        "category": "",
+        "in": [
+            {
+                "x": 620,
+                "y": 280,
+                "wires": [
+                    {
+                        "id": "b0533a62.49e5e"
+                    }
+                ]
+            }
+        ],
+        "out": []
+    },
+    {
+        "id": "5d396833.71e5c8",
+        "type": "subflow",
+        "name": "Tower Decoration Lights",
+        "info": "",
+        "category": "",
+        "in": [
+            {
+                "x": 620,
+                "y": 240,
+                "wires": [
+                    {
+                        "id": "72aa52b.8ccf22c"
+                    },
+                    {
+                        "id": "b1030d6e.ff153"
+                    }
+                ]
+            }
+        ],
+        "out": []
+    },
+    {
+        "id": "ae80d3b2.6b069",
+        "type": "subflow",
+        "name": "Bath Room",
+        "info": "",
+        "category": "",
+        "in": [
+            {
+                "x": 620,
+                "y": 280,
+                "wires": [
+                    {
+                        "id": "256d35c1.cd135a"
+                    }
+                ]
+            }
+        ],
+        "out": []
+    },
+    {
+        "id": "70dbe5da.aa53cc",
+        "type": "subflow",
+        "name": "Gallery Lanterns",
+        "info": "",
+        "category": "",
+        "in": [
+            {
+                "x": 580,
+                "y": 280,
+                "wires": [
+                    {
+                        "id": "69cdf7bc.2115f8"
+                    }
+                ]
+            }
+        ],
+        "out": []
+    },
+    {
+        "id": "cbd1d226.66aa68",
+        "type": "subflow",
+        "name": "Store 1",
+        "info": "",
+        "category": "",
+        "in": [
+            {
+                "x": 580,
+                "y": 300,
+                "wires": [
+                    {
+                        "id": "2012af0d.94e12"
+                    }
+                ]
+            }
+        ],
+        "out": []
+    },
+    {
+        "id": "10461a06.ba0756",
+        "type": "mqtt-broker",
+        "z": "",
+        "name": "Ninjago City Lights",
+        "broker": "192.168.178.111",
+        "port": "1883",
+        "clientid": "Ninjago",
+        "usetls": false,
+        "compatmode": true,
+        "keepalive": "60",
+        "cleansession": true,
+        "birthTopic": "",
+        "birthQos": "0",
+        "birthRetain": "false",
+        "birthPayload": "",
+        "closeTopic": "",
+        "closeQos": "0",
+        "closeRetain": "false",
+        "closePayload": "",
+        "willTopic": "",
+        "willQos": "0",
+        "willRetain": "false",
+        "willPayload": ""
+    },
+    {
+        "id": "38feb799.4b4e8",
+        "type": "ui_group",
+        "z": "",
+        "name": "Upper Level",
+        "tab": "7a719c73.395e0c",
+        "order": 4,
+        "disp": true,
+        "width": "4",
+        "collapse": false
+    },
+    {
+        "id": "7a719c73.395e0c",
+        "type": "ui_tab",
+        "z": "",
+        "name": "Ninjago City Lights",
+        "icon": "dashboard"
+    },
+    {
+        "id": "93e617d5.c1bbe8",
+        "type": "ui_group",
+        "z": "",
+        "name": "Roof Level",
+        "tab": "7a719c73.395e0c",
+        "order": 3,
+        "disp": true,
+        "width": "4",
+        "collapse": false
+    },
+    {
+        "id": "77ea353.b2ffecc",
+        "type": "ui_group",
+        "z": "",
+        "name": "Tower",
+        "tab": "7a719c73.395e0c",
+        "order": 2,
+        "disp": true,
+        "width": "4",
+        "collapse": false
+    },
+    {
+        "id": "50c935f6.4c89ac",
+        "type": "ui_base",
+        "theme": {
+            "name": "theme-dark",
+            "lightTheme": {
+                "default": "#0094CE",
+                "baseColor": "#0094CE",
+                "baseFont": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif",
+                "edited": true,
+                "reset": false
+            },
+            "darkTheme": {
+                "default": "#097479",
+                "baseColor": "#336699",
+                "baseFont": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif",
+                "edited": true,
+                "reset": false
+            },
+            "customTheme": {
+                "name": "Untitled Theme 1",
+                "default": "#4B7930",
+                "baseColor": "#4B7930",
+                "baseFont": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif",
+                "reset": false
+            },
+            "themeState": {
+                "base-color": {
+                    "default": "#097479",
+                    "value": "#336699",
+                    "edited": true
+                },
+                "page-titlebar-backgroundColor": {
+                    "value": "#336699",
+                    "edited": false
+                },
+                "page-backgroundColor": {
+                    "value": "#111111",
+                    "edited": false
+                },
+                "page-sidebar-backgroundColor": {
+                    "value": "#000000",
+                    "edited": false
+                },
+                "group-textColor": {
+                    "value": "#538cc6",
+                    "edited": false
+                },
+                "group-borderColor": {
+                    "value": "#555555",
+                    "edited": false
+                },
+                "group-backgroundColor": {
+                    "value": "#333333",
+                    "edited": false
+                },
+                "widget-textColor": {
+                    "value": "#eeeeee",
+                    "edited": false
+                },
+                "widget-backgroundColor": {
+                    "value": "#336699",
+                    "edited": false
+                },
+                "widget-borderColor": {
+                    "value": "#333333",
+                    "edited": false
+                },
+                "base-font": {
+                    "value": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif"
+                }
+            },
+            "angularTheme": {
+                "primary": "indigo",
+                "accents": "blue",
+                "warn": "red",
+                "background": "grey"
+            }
+        },
+        "site": {
+            "name": "Ninjago City Lights",
+            "hideToolbar": "false",
+            "allowSwipe": "false",
+            "lockMenu": "false",
+            "allowTempTheme": "true",
+            "dateFormat": "DD/MM/YYYY",
+            "sizes": {
+                "sx": 48,
+                "sy": 48,
+                "gx": 6,
+                "gy": 6,
+                "cx": 6,
+                "cy": 6,
+                "px": 0,
+                "py": 0
+            }
+        }
+    },
+    {
+        "id": "54cd4d65.3ffcf4",
+        "type": "ui_group",
+        "z": "",
+        "name": "Street Level",
+        "tab": "7a719c73.395e0c",
+        "order": 5,
+        "disp": true,
+        "width": "4",
+        "collapse": false
+    },
+    {
+        "id": "3f777e1e.a6a842",
+        "type": "ui_group",
+        "z": "",
+        "name": "Upper Ground Level",
+        "tab": "7a719c73.395e0c",
+        "order": 6,
+        "disp": true,
+        "width": "4",
+        "collapse": false
+    },
+    {
+        "id": "2a8ba6a2.efee32",
+        "type": "ui_group",
+        "z": "",
+        "name": "Lower Ground Level",
+        "tab": "7a719c73.395e0c",
+        "order": 7,
+        "disp": true,
+        "width": "4",
+        "collapse": false
+    },
+    {
+        "id": "c5694bf6.f04218",
+        "type": "ui_group",
+        "z": "",
+        "name": "Ninjago City Lights",
+        "tab": "7a719c73.395e0c",
+        "order": 1,
+        "disp": false,
+        "width": "4",
+        "collapse": false
+    },
+    {
+        "id": "19bd2cf4.c80aab",
+        "type": "inject",
+        "z": "ae80d3b2.6b069",
+        "name": "ON",
+        "topic": "",
+        "payload": "true",
+        "payloadType": "bool",
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "x": 590,
+        "y": 140,
+        "wires": [
+            [
+                "256d35c1.cd135a"
+            ]
+        ]
+    },
+    {
+        "id": "256d35c1.cd135a",
+        "type": "mqtt out",
+        "z": "ae80d3b2.6b069",
+        "name": "",
+        "topic": "control/BathRoom",
+        "qos": "0",
+        "retain": "true",
+        "broker": "10461a06.ba0756",
+        "x": 850,
+        "y": 180,
+        "wires": []
+    },
+    {
+        "id": "ab77eccb.1b7c8",
+        "type": "inject",
+        "z": "ae80d3b2.6b069",
+        "name": "OFF",
+        "topic": "",
+        "payload": "false",
+        "payloadType": "bool",
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "x": 590,
+        "y": 220,
+        "wires": [
+            [
+                "256d35c1.cd135a"
+            ]
+        ]
+    },
+    {
+        "id": "e6876bf5.8a567",
+        "type": "comment",
+        "z": "ae80d3b2.6b069",
+        "name": "Tower Bath Room",
+        "info": "",
+        "x": 570,
+        "y": 80,
+        "wires": []
+    },
+    {
+        "id": "90126855.b10c28",
+        "type": "ui_switch",
+        "z": "ae80d3b2.6b069",
+        "name": "Bath Room",
+        "label": "Bath Room",
+        "tooltip": "",
+        "group": "93e617d5.c1bbe8",
+        "order": 0,
+        "width": 0,
+        "height": 0,
+        "passthru": false,
+        "decouple": "true",
+        "topic": "",
+        "style": "",
+        "onvalue": "true",
+        "onvalueType": "bool",
+        "onicon": "",
+        "oncolor": "",
+        "offvalue": "false",
+        "offvalueType": "bool",
+        "officon": "",
+        "offcolor": "",
+        "x": 570,
+        "y": 180,
+        "wires": [
+            [
+                "256d35c1.cd135a"
+            ]
+        ]
+    },
+    {
+        "id": "af9272e0.9aa568",
+        "type": "mqtt in",
+        "z": "ae80d3b2.6b069",
+        "name": "",
+        "topic": "status/BathRoom",
+        "qos": "2",
+        "broker": "10461a06.ba0756",
+        "x": 180,
+        "y": 180,
+        "wires": [
+            [
+                "b638b256.8b08e"
+            ]
+        ]
+    },
+    {
+        "id": "b638b256.8b08e",
+        "type": "function",
+        "z": "ae80d3b2.6b069",
+        "name": "toBool",
+        "func": "if (msg.payload === \"true\") {\n    msg.payload = true;\n}\nelse{\n    msg.payload = false;\n}\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 350,
+        "y": 180,
+        "wires": [
+            [
+                "90126855.b10c28"
+            ]
+        ]
+    },
+    {
+        "id": "d38c937b.39558",
+        "type": "inject",
+        "z": "5d396833.71e5c8",
+        "name": "ON",
+        "topic": "",
+        "payload": "true",
+        "payloadType": "bool",
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "x": 590,
+        "y": 100,
+        "wires": [
+            [
+                "b1030d6e.ff153",
+                "72aa52b.8ccf22c"
+            ]
+        ]
+    },
+    {
+        "id": "b1030d6e.ff153",
+        "type": "mqtt out",
+        "z": "5d396833.71e5c8",
+        "name": "",
+        "topic": "control/Tower2",
+        "qos": "0",
+        "retain": "true",
+        "broker": "10461a06.ba0756",
+        "x": 840,
+        "y": 180,
+        "wires": []
+    },
+    {
+        "id": "314e25a7.f7d742",
+        "type": "inject",
+        "z": "5d396833.71e5c8",
+        "name": "OFF",
+        "topic": "",
+        "payload": "false",
+        "payloadType": "bool",
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "x": 590,
+        "y": 180,
+        "wires": [
+            [
+                "b1030d6e.ff153",
+                "72aa52b.8ccf22c"
+            ]
+        ]
+    },
+    {
+        "id": "72aa52b.8ccf22c",
+        "type": "mqtt out",
+        "z": "5d396833.71e5c8",
+        "name": "",
+        "topic": "control/Tower1",
+        "qos": "0",
+        "retain": "true",
+        "broker": "10461a06.ba0756",
+        "x": 840,
+        "y": 100,
+        "wires": []
+    },
+    {
+        "id": "12ad565.1f1b8aa",
+        "type": "comment",
+        "z": "5d396833.71e5c8",
+        "name": "Tower Decoration Lights",
+        "info": "",
+        "x": 590,
+        "y": 40,
+        "wires": []
+    },
+    {
+        "id": "663e25af.0fc2a4",
+        "type": "ui_switch",
+        "z": "5d396833.71e5c8",
+        "name": "Decoration Lights",
+        "label": "Tower Lights",
+        "tooltip": "",
+        "group": "77ea353.b2ffecc",
+        "order": 0,
+        "width": 0,
+        "height": 0,
+        "passthru": false,
+        "decouple": "true",
+        "topic": "",
+        "style": "",
+        "onvalue": "true",
+        "onvalueType": "bool",
+        "onicon": "",
+        "oncolor": "",
+        "offvalue": "false",
+        "offvalueType": "bool",
+        "officon": "",
+        "offcolor": "",
+        "x": 550,
+        "y": 140,
+        "wires": [
+            [
+                "72aa52b.8ccf22c",
+                "b1030d6e.ff153"
+            ]
+        ]
+    },
+    {
+        "id": "d627c053.8f8498",
+        "type": "mqtt in",
+        "z": "5d396833.71e5c8",
+        "name": "",
+        "topic": "status/Tower1",
+        "qos": "2",
+        "broker": "10461a06.ba0756",
+        "x": 170,
+        "y": 140,
+        "wires": [
+            [
+                "47e58eca.f56128"
+            ]
+        ]
+    },
+    {
+        "id": "47e58eca.f56128",
+        "type": "function",
+        "z": "5d396833.71e5c8",
+        "name": "toBool",
+        "func": "if (msg.payload === \"true\") {\n    msg.payload = true;\n}\nelse{\n    msg.payload = false;\n}\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 350,
+        "y": 140,
+        "wires": [
+            [
+                "663e25af.0fc2a4"
+            ]
+        ]
+    },
+    {
+        "id": "f49f6699.f3ba3",
+        "type": "msg-router",
+        "z": "f618c951.590058",
+        "routerType": "broadcast",
+        "topicDependent": false,
+        "counterReset": false,
+        "msgKeyField": "payload",
+        "undefinedHash": false,
+        "outputsInfo": [
+            {
+                "active": true,
+                "clone": false,
+                "delay": "100",
+                "weight": "0"
+            },
+            {
+                "active": true,
+                "clone": false,
+                "delay": "100",
+                "weight": "0"
+            },
+            {
+                "active": true,
+                "clone": false,
+                "delay": "100",
+                "weight": "0"
+            },
+            {
+                "active": true,
+                "clone": false,
+                "delay": "100",
+                "weight": "0"
+            },
+            {
+                "active": true,
+                "clone": false,
+                "delay": "100",
+                "weight": "0"
+            },
+            {
+                "active": true,
+                "clone": false,
+                "delay": "100",
+                "weight": "0"
+            }
+        ],
+        "name": "",
+        "delaying": "increment_all",
+        "msgControl": false,
+        "outputs": 6,
+        "x": 770,
+        "y": 180,
+        "wires": [
+            [
+                "a3c8b590.ad2bc"
+            ],
+            [
+                "4651b30c.08641c"
+            ],
+            [
+                "2e190159.feb8e6"
+            ],
+            [
+                "164dad9.dd98e52"
+            ],
+            [
+                "94fa2415.03f1d8"
+            ],
+            [
+                "e5f95cac.674fb"
+            ]
+        ]
+    },
+    {
+        "id": "2e190159.feb8e6",
+        "type": "mqtt out",
+        "z": "f618c951.590058",
+        "name": "",
+        "topic": "control/Bar1",
+        "qos": "0",
+        "retain": "true",
+        "broker": "10461a06.ba0756",
+        "x": 990,
+        "y": 80,
+        "wires": []
+    },
+    {
+        "id": "a3c8b590.ad2bc",
+        "type": "mqtt out",
+        "z": "f618c951.590058",
+        "name": "",
+        "topic": "control/Bar5",
+        "qos": "0",
+        "retain": "true",
+        "broker": "10461a06.ba0756",
+        "x": 990,
+        "y": 240,
+        "wires": []
+    },
+    {
+        "id": "164dad9.dd98e52",
+        "type": "mqtt out",
+        "z": "f618c951.590058",
+        "name": "",
+        "topic": "control/Bar2",
+        "qos": "0",
+        "retain": "true",
+        "broker": "10461a06.ba0756",
+        "x": 990,
+        "y": 120,
+        "wires": []
+    },
+    {
+        "id": "94fa2415.03f1d8",
+        "type": "mqtt out",
+        "z": "f618c951.590058",
+        "name": "",
+        "topic": "control/Bar3",
+        "qos": "0",
+        "retain": "true",
+        "broker": "10461a06.ba0756",
+        "x": 990,
+        "y": 160,
+        "wires": []
+    },
+    {
+        "id": "e5f95cac.674fb",
+        "type": "mqtt out",
+        "z": "f618c951.590058",
+        "name": "",
+        "topic": "control/Bar4",
+        "qos": "0",
+        "retain": "true",
+        "broker": "10461a06.ba0756",
+        "x": 990,
+        "y": 200,
+        "wires": []
+    },
+    {
+        "id": "4651b30c.08641c",
+        "type": "mqtt out",
+        "z": "f618c951.590058",
+        "name": "",
+        "topic": "control/Bar6",
+        "qos": "0",
+        "retain": "true",
+        "broker": "10461a06.ba0756",
+        "x": 990,
+        "y": 280,
+        "wires": []
+    },
+    {
+        "id": "49c9cf0e.c386d",
+        "type": "inject",
+        "z": "f618c951.590058",
+        "name": "ON",
+        "topic": "",
+        "payload": "true",
+        "payloadType": "bool",
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "x": 550,
+        "y": 140,
+        "wires": [
+            [
+                "f49f6699.f3ba3"
+            ]
+        ]
+    },
+    {
+        "id": "70194bdf.bcf504",
+        "type": "inject",
+        "z": "f618c951.590058",
+        "name": "OFF",
+        "topic": "",
+        "payload": "false",
+        "payloadType": "bool",
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "x": 550,
+        "y": 220,
+        "wires": [
+            [
+                "f49f6699.f3ba3"
+            ]
+        ]
+    },
+    {
+        "id": "9d167cef.194878",
+        "type": "comment",
+        "z": "f618c951.590058",
+        "name": "Roof Bar",
+        "info": "",
+        "x": 500,
+        "y": 80,
+        "wires": []
+    },
+    {
+        "id": "3d901d3a.ce19da",
+        "type": "ui_switch",
+        "z": "f618c951.590058",
+        "name": "Bar",
+        "label": "Bar",
+        "tooltip": "",
+        "group": "93e617d5.c1bbe8",
+        "order": 0,
+        "width": 0,
+        "height": 0,
+        "passthru": false,
+        "decouple": "true",
+        "topic": "",
+        "style": "",
+        "onvalue": "true",
+        "onvalueType": "bool",
+        "onicon": "",
+        "oncolor": "",
+        "offvalue": "false",
+        "offvalueType": "bool",
+        "officon": "",
+        "offcolor": "",
+        "x": 550,
+        "y": 180,
+        "wires": [
+            [
+                "f49f6699.f3ba3"
+            ]
+        ]
+    },
+    {
+        "id": "278d2892.8b8d9",
+        "type": "mqtt in",
+        "z": "f618c951.590058",
+        "name": "",
+        "topic": "status/Bar6",
+        "qos": "2",
+        "broker": "10461a06.ba0756",
+        "x": 130,
+        "y": 180,
+        "wires": [
+            [
+                "907f41c6.e3cdd8"
+            ]
+        ]
+    },
+    {
+        "id": "907f41c6.e3cdd8",
+        "type": "function",
+        "z": "f618c951.590058",
+        "name": "toBool",
+        "func": "if (msg.payload === \"true\") {\n    msg.payload = true;\n}\nelse{\n    msg.payload = false;\n}\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 310,
+        "y": 180,
+        "wires": [
+            [
+                "3d901d3a.ce19da"
+            ]
+        ]
+    },
+    {
+        "id": "ac71ae3d.4fa25",
+        "type": "comment",
+        "z": "332f23ef.59d28c",
+        "name": "Tree Lights",
+        "info": "",
+        "x": 580,
+        "y": 80,
+        "wires": []
+    },
+    {
+        "id": "421791b0.7a8b48",
+        "type": "inject",
+        "z": "332f23ef.59d28c",
+        "name": "ON",
+        "topic": "",
+        "payload": "true",
+        "payloadType": "bool",
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "x": 630,
+        "y": 140,
+        "wires": [
+            [
+                "e2d0102.02a337",
+                "1770acd5.450a43"
+            ]
+        ]
+    },
+    {
+        "id": "e2d0102.02a337",
+        "type": "mqtt out",
+        "z": "332f23ef.59d28c",
+        "name": "",
+        "topic": "control/Tree2",
+        "qos": "0",
+        "retain": "true",
+        "broker": "10461a06.ba0756",
+        "x": 870,
+        "y": 220,
+        "wires": []
+    },
+    {
+        "id": "e482c3bd.3aca7",
+        "type": "inject",
+        "z": "332f23ef.59d28c",
+        "name": "OFF",
+        "topic": "",
+        "payload": "false",
+        "payloadType": "bool",
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "x": 630,
+        "y": 220,
+        "wires": [
+            [
+                "e2d0102.02a337",
+                "1770acd5.450a43"
+            ]
+        ]
+    },
+    {
+        "id": "1770acd5.450a43",
+        "type": "mqtt out",
+        "z": "332f23ef.59d28c",
+        "name": "",
+        "topic": "control/Tree1",
+        "qos": "0",
+        "retain": "true",
+        "broker": "10461a06.ba0756",
+        "x": 870,
+        "y": 140,
+        "wires": []
+    },
+    {
+        "id": "95e7ab24.6fd9d",
+        "type": "ui_switch",
+        "z": "332f23ef.59d28c",
+        "name": "Tree Lights",
+        "label": "Tree Lights",
+        "tooltip": "",
+        "group": "38feb799.4b4e8",
+        "order": 3,
+        "width": 0,
+        "height": 0,
+        "passthru": false,
+        "decouple": "true",
+        "topic": "",
+        "style": "",
+        "onvalue": "true",
+        "onvalueType": "bool",
+        "onicon": "",
+        "oncolor": "",
+        "offvalue": "false",
+        "offvalueType": "bool",
+        "officon": "",
+        "offcolor": "",
+        "x": 610,
+        "y": 180,
+        "wires": [
+            [
+                "1770acd5.450a43",
+                "e2d0102.02a337"
+            ]
+        ]
+    },
+    {
+        "id": "62287516.79a51c",
+        "type": "mqtt in",
+        "z": "332f23ef.59d28c",
+        "name": "",
+        "topic": "status/Tree1",
+        "qos": "2",
+        "broker": "10461a06.ba0756",
+        "x": 210,
+        "y": 180,
+        "wires": [
+            [
+                "4062ee42.25b768"
+            ]
+        ]
+    },
+    {
+        "id": "4062ee42.25b768",
+        "type": "function",
+        "z": "332f23ef.59d28c",
+        "name": "toBool",
+        "func": "if (msg.payload === \"true\") {\n    msg.payload = true;\n}\nelse{\n    msg.payload = false;\n}\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 390,
+        "y": 180,
+        "wires": [
+            [
+                "95e7ab24.6fd9d"
+            ]
+        ]
+    },
+    {
+        "id": "cb1b9ed9.e77bb8",
+        "type": "msg-router",
+        "z": "84472f1.1376bd",
+        "routerType": "broadcast",
+        "topicDependent": false,
+        "counterReset": false,
+        "msgKeyField": "payload",
+        "undefinedHash": false,
+        "outputsInfo": [
+            {
+                "active": true,
+                "clone": false,
+                "delay": "0",
+                "weight": "0"
+            },
+            {
+                "active": true,
+                "clone": false,
+                "delay": "0",
+                "weight": "0"
+            }
+        ],
+        "name": "",
+        "delaying": "unrelated",
+        "msgControl": false,
+        "outputs": 2,
+        "x": 770,
+        "y": 160,
+        "wires": [
+            [
+                "4436efac.bf10f8"
+            ],
+            [
+                "2e42046c.3a243c"
+            ]
+        ]
+    },
+    {
+        "id": "2e42046c.3a243c",
+        "type": "mqtt out",
+        "z": "84472f1.1376bd",
+        "name": "",
+        "topic": "control/Store4",
+        "qos": "0",
+        "retain": "true",
+        "broker": "10461a06.ba0756",
+        "x": 1000,
+        "y": 180,
+        "wires": []
+    },
+    {
+        "id": "4436efac.bf10f8",
+        "type": "mqtt out",
+        "z": "84472f1.1376bd",
+        "name": "",
+        "topic": "control/Store3",
+        "qos": "0",
+        "retain": "true",
+        "broker": "10461a06.ba0756",
+        "x": 1000,
+        "y": 140,
+        "wires": []
+    },
+    {
+        "id": "51facd.9688fd34",
+        "type": "inject",
+        "z": "84472f1.1376bd",
+        "name": "ON",
+        "topic": "",
+        "payload": "true",
+        "payloadType": "bool",
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "x": 550,
+        "y": 120,
+        "wires": [
+            [
+                "cb1b9ed9.e77bb8"
+            ]
+        ]
+    },
+    {
+        "id": "90af43eb.92a9a8",
+        "type": "inject",
+        "z": "84472f1.1376bd",
+        "name": "OFF",
+        "topic": "",
+        "payload": "false",
+        "payloadType": "bool",
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "x": 550,
+        "y": 200,
+        "wires": [
+            [
+                "cb1b9ed9.e77bb8"
+            ]
+        ]
+    },
+    {
+        "id": "f34b43aa.8e6788",
+        "type": "comment",
+        "z": "84472f1.1376bd",
+        "name": "Upper Level Store",
+        "info": "",
+        "x": 530,
+        "y": 60,
+        "wires": []
+    },
+    {
+        "id": "baef8b76.766a4",
+        "type": "ui_switch",
+        "z": "84472f1.1376bd",
+        "name": "Store 2",
+        "label": "Store 2",
+        "tooltip": "",
+        "group": "38feb799.4b4e8",
+        "order": 5,
+        "width": 0,
+        "height": 0,
+        "passthru": false,
+        "decouple": "true",
+        "topic": "",
+        "style": "",
+        "onvalue": "true",
+        "onvalueType": "bool",
+        "onicon": "",
+        "oncolor": "",
+        "offvalue": "false",
+        "offvalueType": "bool",
+        "officon": "",
+        "offcolor": "",
+        "x": 540,
+        "y": 160,
+        "wires": [
+            [
+                "cb1b9ed9.e77bb8"
+            ]
+        ]
+    },
+    {
+        "id": "7cbc7713.41fda8",
+        "type": "mqtt in",
+        "z": "84472f1.1376bd",
+        "name": "",
+        "topic": "status/Store4",
+        "qos": "2",
+        "broker": "10461a06.ba0756",
+        "x": 130,
+        "y": 160,
+        "wires": [
+            [
+                "afa8bab3.81d55"
+            ]
+        ]
+    },
+    {
+        "id": "afa8bab3.81d55",
+        "type": "function",
+        "z": "84472f1.1376bd",
+        "name": "toBool",
+        "func": "if (msg.payload === \"true\") {\n    msg.payload = true;\n}\nelse{\n    msg.payload = false;\n}\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 310,
+        "y": 160,
+        "wires": [
+            [
+                "baef8b76.766a4"
+            ]
+        ]
+    },
+    {
+        "id": "be2a854e.84843",
+        "type": "inject",
+        "z": "dbe2a1e7.2a0598",
+        "name": "ON",
+        "topic": "",
+        "payload": "true",
+        "payloadType": "bool",
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "x": 630,
+        "y": 140,
+        "wires": [
+            [
+                "7a670dfa.d1653c"
+            ]
+        ]
+    },
+    {
+        "id": "7a670dfa.d1653c",
+        "type": "mqtt out",
+        "z": "dbe2a1e7.2a0598",
+        "name": "",
+        "topic": "control/Shop",
+        "qos": "0",
+        "retain": "true",
+        "broker": "10461a06.ba0756",
+        "x": 870,
+        "y": 180,
+        "wires": []
+    },
+    {
+        "id": "529fc268.829924",
+        "type": "inject",
+        "z": "dbe2a1e7.2a0598",
+        "name": "OFF",
+        "topic": "",
+        "payload": "false",
+        "payloadType": "bool",
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "x": 630,
+        "y": 220,
+        "wires": [
+            [
+                "7a670dfa.d1653c"
+            ]
+        ]
+    },
+    {
+        "id": "df8ea9d3.87f27",
+        "type": "comment",
+        "z": "dbe2a1e7.2a0598",
+        "name": "Street Level Shop",
+        "info": "",
+        "x": 610,
+        "y": 80,
+        "wires": []
+    },
+    {
+        "id": "1e625d39.1bd233",
+        "type": "ui_switch",
+        "z": "dbe2a1e7.2a0598",
+        "name": "Shop",
+        "label": "Shop",
+        "tooltip": "",
+        "group": "54cd4d65.3ffcf4",
+        "order": 0,
+        "width": 0,
+        "height": 0,
+        "passthru": false,
+        "decouple": "true",
+        "topic": "",
+        "style": "",
+        "onvalue": "true",
+        "onvalueType": "bool",
+        "onicon": "",
+        "oncolor": "",
+        "offvalue": "false",
+        "offvalueType": "bool",
+        "officon": "",
+        "offcolor": "",
+        "x": 630,
+        "y": 180,
+        "wires": [
+            [
+                "7a670dfa.d1653c"
+            ]
+        ]
+    },
+    {
+        "id": "37b3ec48.b7681c",
+        "type": "mqtt in",
+        "z": "dbe2a1e7.2a0598",
+        "name": "",
+        "topic": "status/Shop",
+        "qos": "2",
+        "broker": "10461a06.ba0756",
+        "x": 210,
+        "y": 180,
+        "wires": [
+            [
+                "cae442a1.7fcbc"
+            ]
+        ]
+    },
+    {
+        "id": "cae442a1.7fcbc",
+        "type": "function",
+        "z": "dbe2a1e7.2a0598",
+        "name": "toBool",
+        "func": "if (msg.payload === \"true\") {\n    msg.payload = true;\n}\nelse{\n    msg.payload = false;\n}\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 390,
+        "y": 180,
+        "wires": [
+            [
+                "1e625d39.1bd233"
+            ]
+        ]
+    },
+    {
+        "id": "e3a92f0a.6ac49",
+        "type": "inject",
+        "z": "bb9b587.bba2828",
+        "name": "ON",
+        "topic": "",
+        "payload": "true",
+        "payloadType": "bool",
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "x": 570,
+        "y": 160,
+        "wires": [
+            [
+                "38a8979d.799118"
+            ]
+        ]
+    },
+    {
+        "id": "38a8979d.799118",
+        "type": "mqtt out",
+        "z": "bb9b587.bba2828",
+        "name": "",
+        "topic": "control/Restaurant",
+        "qos": "0",
+        "retain": "true",
+        "broker": "10461a06.ba0756",
+        "x": 830,
+        "y": 200,
+        "wires": []
+    },
+    {
+        "id": "de75357c.7b0fd8",
+        "type": "inject",
+        "z": "bb9b587.bba2828",
+        "name": "OFF",
+        "topic": "",
+        "payload": "false",
+        "payloadType": "bool",
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "x": 570,
+        "y": 240,
+        "wires": [
+            [
+                "38a8979d.799118"
+            ]
+        ]
+    },
+    {
+        "id": "737601cf.b3e38",
+        "type": "comment",
+        "z": "bb9b587.bba2828",
+        "name": "Street Level Restaurant",
+        "info": "",
+        "x": 560,
+        "y": 100,
+        "wires": []
+    },
+    {
+        "id": "578325bd.10584c",
+        "type": "ui_switch",
+        "z": "bb9b587.bba2828",
+        "name": "Restaurant",
+        "label": "Restaurant",
+        "tooltip": "",
+        "group": "54cd4d65.3ffcf4",
+        "order": 0,
+        "width": 0,
+        "height": 0,
+        "passthru": false,
+        "decouple": "true",
+        "topic": "",
+        "style": "",
+        "onvalue": "true",
+        "onvalueType": "bool",
+        "onicon": "",
+        "oncolor": "",
+        "offvalue": "false",
+        "offvalueType": "bool",
+        "officon": "",
+        "offcolor": "",
+        "x": 550,
+        "y": 200,
+        "wires": [
+            [
+                "38a8979d.799118"
+            ]
+        ]
+    },
+    {
+        "id": "cae41fe8.3da688",
+        "type": "mqtt in",
+        "z": "bb9b587.bba2828",
+        "name": "",
+        "topic": "status/Restaurant",
+        "qos": "2",
+        "broker": "10461a06.ba0756",
+        "x": 170,
+        "y": 200,
+        "wires": [
+            [
+                "128188a6.6149f7"
+            ]
+        ]
+    },
+    {
+        "id": "128188a6.6149f7",
+        "type": "function",
+        "z": "bb9b587.bba2828",
+        "name": "toBool",
+        "func": "if (msg.payload === \"true\") {\n    msg.payload = true;\n}\nelse{\n    msg.payload = false;\n}\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 330,
+        "y": 200,
+        "wires": [
+            [
+                "578325bd.10584c"
+            ]
+        ]
+    },
+    {
+        "id": "1397e3b4.d2c394",
+        "type": "inject",
+        "z": "845ce9a.fbc6218",
+        "name": "ON",
+        "topic": "",
+        "payload": "true",
+        "payloadType": "bool",
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "x": 550,
+        "y": 100,
+        "wires": [
+            [
+                "ed5f6b8c.281a",
+                "2e2da1c2.c25d7e"
+            ]
+        ]
+    },
+    {
+        "id": "ed5f6b8c.281a",
+        "type": "mqtt out",
+        "z": "845ce9a.fbc6218",
+        "name": "",
+        "topic": "control/Decoration2",
+        "qos": "0",
+        "retain": "true",
+        "broker": "10461a06.ba0756",
+        "x": 820,
+        "y": 180,
+        "wires": []
+    },
+    {
+        "id": "f7d5e999.6be228",
+        "type": "inject",
+        "z": "845ce9a.fbc6218",
+        "name": "OFF",
+        "topic": "",
+        "payload": "false",
+        "payloadType": "bool",
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "x": 550,
+        "y": 180,
+        "wires": [
+            [
+                "ed5f6b8c.281a",
+                "2e2da1c2.c25d7e"
+            ]
+        ]
+    },
+    {
+        "id": "2e2da1c2.c25d7e",
+        "type": "mqtt out",
+        "z": "845ce9a.fbc6218",
+        "name": "",
+        "topic": "control/Decoration1",
+        "qos": "0",
+        "retain": "true",
+        "broker": "10461a06.ba0756",
+        "x": 820,
+        "y": 100,
+        "wires": []
+    },
+    {
+        "id": "2e4ea74.dc33dd8",
+        "type": "comment",
+        "z": "845ce9a.fbc6218",
+        "name": "Street Level Restaurant Decoration Lights",
+        "info": "",
+        "x": 600,
+        "y": 40,
+        "wires": []
+    },
+    {
+        "id": "c2c1f115.8073",
+        "type": "ui_switch",
+        "z": "845ce9a.fbc6218",
+        "name": "Decoration Lights",
+        "label": "Restaurant Lights",
+        "tooltip": "",
+        "group": "54cd4d65.3ffcf4",
+        "order": 0,
+        "width": 0,
+        "height": 0,
+        "passthru": false,
+        "decouple": "true",
+        "topic": "",
+        "style": "",
+        "onvalue": "true",
+        "onvalueType": "bool",
+        "onicon": "",
+        "oncolor": "",
+        "offvalue": "false",
+        "offvalueType": "bool",
+        "officon": "",
+        "offcolor": "",
+        "x": 510,
+        "y": 140,
+        "wires": [
+            [
+                "2e2da1c2.c25d7e",
+                "ed5f6b8c.281a"
+            ]
+        ]
+    },
+    {
+        "id": "7e2cbef7.587368",
+        "type": "mqtt in",
+        "z": "845ce9a.fbc6218",
+        "name": "",
+        "topic": "status/Decoration1",
+        "qos": "2",
+        "broker": "10461a06.ba0756",
+        "x": 150,
+        "y": 140,
+        "wires": [
+            [
+                "4f4f3a26.6c8d9c"
+            ]
+        ]
+    },
+    {
+        "id": "4f4f3a26.6c8d9c",
+        "type": "function",
+        "z": "845ce9a.fbc6218",
+        "name": "toBool",
+        "func": "if (msg.payload === \"true\") {\n    msg.payload = true;\n}\nelse{\n    msg.payload = false;\n}\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 310,
+        "y": 140,
+        "wires": [
+            [
+                "c2c1f115.8073"
+            ]
+        ]
+    },
+    {
+        "id": "2320a13e.9f4ed6",
+        "type": "msg-router",
+        "z": "4db881d7.7503f8",
+        "routerType": "broadcast",
+        "topicDependent": false,
+        "counterReset": false,
+        "msgKeyField": "payload",
+        "undefinedHash": false,
+        "outputsInfo": [
+            {
+                "active": true,
+                "clone": false,
+                "delay": "0",
+                "weight": "0"
+            },
+            {
+                "active": true,
+                "clone": false,
+                "delay": "0",
+                "weight": "0"
+            },
+            {
+                "active": true,
+                "clone": false,
+                "delay": "0",
+                "weight": "0"
+            },
+            {
+                "active": true,
+                "clone": false,
+                "delay": "0",
+                "weight": "0"
+            }
+        ],
+        "name": "",
+        "delaying": "unrelated",
+        "msgControl": false,
+        "outputs": 4,
+        "x": 770,
+        "y": 160,
+        "wires": [
+            [
+                "3bbd751f.56f4ea"
+            ],
+            [
+                "c3242d3f.378d48"
+            ],
+            [
+                "d76ee4d2.74b008"
+            ],
+            [
+                "4af9435b.171bbc"
+            ]
+        ]
+    },
+    {
+        "id": "4af9435b.171bbc",
+        "type": "mqtt out",
+        "z": "4db881d7.7503f8",
+        "name": "",
+        "topic": "control/Gallery0",
+        "qos": "0",
+        "retain": "true",
+        "broker": "10461a06.ba0756",
+        "x": 1000,
+        "y": 220,
+        "wires": []
+    },
+    {
+        "id": "3bbd751f.56f4ea",
+        "type": "mqtt out",
+        "z": "4db881d7.7503f8",
+        "name": "",
+        "topic": "control/Gallery7",
+        "qos": "0",
+        "retain": "true",
+        "broker": "10461a06.ba0756",
+        "x": 1000,
+        "y": 100,
+        "wires": []
+    },
+    {
+        "id": "c3242d3f.378d48",
+        "type": "mqtt out",
+        "z": "4db881d7.7503f8",
+        "name": "",
+        "topic": "control/Gallery8",
+        "qos": "0",
+        "retain": "true",
+        "broker": "10461a06.ba0756",
+        "x": 1000,
+        "y": 140,
+        "wires": []
+    },
+    {
+        "id": "d76ee4d2.74b008",
+        "type": "mqtt out",
+        "z": "4db881d7.7503f8",
+        "name": "",
+        "topic": "control/Gallery9",
+        "qos": "0",
+        "retain": "true",
+        "broker": "10461a06.ba0756",
+        "x": 1000,
+        "y": 180,
+        "wires": []
+    },
+    {
+        "id": "74ee1a42.6f771c",
+        "type": "inject",
+        "z": "4db881d7.7503f8",
+        "name": "ON",
+        "topic": "",
+        "payload": "true",
+        "payloadType": "bool",
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "x": 550,
+        "y": 120,
+        "wires": [
+            [
+                "2320a13e.9f4ed6"
+            ]
+        ]
+    },
+    {
+        "id": "e8482a4.cb638d8",
+        "type": "inject",
+        "z": "4db881d7.7503f8",
+        "name": "OFF",
+        "topic": "",
+        "payload": "false",
+        "payloadType": "bool",
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "x": 550,
+        "y": 200,
+        "wires": [
+            [
+                "2320a13e.9f4ed6"
+            ]
+        ]
+    },
+    {
+        "id": "603e0282.fa92dc",
+        "type": "comment",
+        "z": "4db881d7.7503f8",
+        "name": "Street Level Restaurant Lanterns",
+        "info": "",
+        "x": 570,
+        "y": 60,
+        "wires": []
+    },
+    {
+        "id": "63335d39.23be74",
+        "type": "ui_switch",
+        "z": "4db881d7.7503f8",
+        "name": "Lanterns",
+        "label": "Restaurant Lanterns",
+        "tooltip": "",
+        "group": "54cd4d65.3ffcf4",
+        "order": 0,
+        "width": 0,
+        "height": 0,
+        "passthru": false,
+        "decouple": "true",
+        "topic": "",
+        "style": "",
+        "onvalue": "true",
+        "onvalueType": "bool",
+        "onicon": "",
+        "oncolor": "",
+        "offvalue": "false",
+        "offvalueType": "bool",
+        "officon": "",
+        "offcolor": "",
+        "x": 540,
+        "y": 160,
+        "wires": [
+            [
+                "2320a13e.9f4ed6"
+            ]
+        ]
+    },
+    {
+        "id": "d5f8d642.0d7708",
+        "type": "mqtt in",
+        "z": "4db881d7.7503f8",
+        "name": "",
+        "topic": "status/Gallery0",
+        "qos": "2",
+        "broker": "10461a06.ba0756",
+        "x": 140,
+        "y": 160,
+        "wires": [
+            [
+                "fd1f4c7c.d0948"
+            ]
+        ]
+    },
+    {
+        "id": "fd1f4c7c.d0948",
+        "type": "function",
+        "z": "4db881d7.7503f8",
+        "name": "toBool",
+        "func": "if (msg.payload === \"true\") {\n    msg.payload = true;\n}\nelse{\n    msg.payload = false;\n}\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 310,
+        "y": 160,
+        "wires": [
+            [
+                "63335d39.23be74"
+            ]
+        ]
+    },
+    {
+        "id": "4f48b1c5.2683f",
+        "type": "inject",
+        "z": "38c06923.d5a96e",
+        "name": "ON",
+        "topic": "",
+        "payload": "true",
+        "payloadType": "bool",
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "x": 590,
+        "y": 140,
+        "wires": [
+            [
+                "b0533a62.49e5e"
+            ]
+        ]
+    },
+    {
+        "id": "b0533a62.49e5e",
+        "type": "mqtt out",
+        "z": "38c06923.d5a96e",
+        "name": "",
+        "topic": "control/ObstacleLight",
+        "qos": "0",
+        "retain": "true",
+        "broker": "10461a06.ba0756",
+        "x": 860,
+        "y": 180,
+        "wires": []
+    },
+    {
+        "id": "c3e22007.ddbfe8",
+        "type": "inject",
+        "z": "38c06923.d5a96e",
+        "name": "OFF",
+        "topic": "",
+        "payload": "false",
+        "payloadType": "bool",
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "x": 590,
+        "y": 220,
+        "wires": [
+            [
+                "b0533a62.49e5e"
+            ]
+        ]
+    },
+    {
+        "id": "b48869cc.9b7fa8",
+        "type": "comment",
+        "z": "38c06923.d5a96e",
+        "name": "Tower Obstacle Light",
+        "info": "",
+        "x": 580,
+        "y": 80,
+        "wires": []
+    },
+    {
+        "id": "fb4142cb.08476",
+        "type": "ui_switch",
+        "z": "38c06923.d5a96e",
+        "name": "Obstacle Light",
+        "label": "Obstacle Light",
+        "tooltip": "",
+        "group": "77ea353.b2ffecc",
+        "order": 0,
+        "width": 0,
+        "height": 0,
+        "passthru": false,
+        "decouple": "true",
+        "topic": "",
+        "style": "",
+        "onvalue": "true",
+        "onvalueType": "bool",
+        "onicon": "",
+        "oncolor": "",
+        "offvalue": "false",
+        "offvalueType": "bool",
+        "officon": "",
+        "offcolor": "",
+        "x": 560,
+        "y": 180,
+        "wires": [
+            [
+                "b0533a62.49e5e"
+            ]
+        ]
+    },
+    {
+        "id": "253d762e.9cffa2",
+        "type": "mqtt in",
+        "z": "38c06923.d5a96e",
+        "name": "",
+        "topic": "status/ObstacleLight",
+        "qos": "2",
+        "broker": "10461a06.ba0756",
+        "x": 190,
+        "y": 180,
+        "wires": [
+            [
+                "3fbc35d9.4ddc6a"
+            ]
+        ]
+    },
+    {
+        "id": "3fbc35d9.4ddc6a",
+        "type": "function",
+        "z": "38c06923.d5a96e",
+        "name": "toBool",
+        "func": "if (msg.payload === \"true\") {\n    msg.payload = true;\n}\nelse{\n    msg.payload = false;\n}\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 350,
+        "y": 180,
+        "wires": [
+            [
+                "fb4142cb.08476"
+            ]
+        ]
+    },
+    {
+        "id": "69cdf7bc.2115f8",
+        "type": "msg-router",
+        "z": "70dbe5da.aa53cc",
+        "routerType": "broadcast",
+        "topicDependent": false,
+        "counterReset": false,
+        "msgKeyField": "payload",
+        "undefinedHash": false,
+        "outputsInfo": [
+            {
+                "active": true,
+                "clone": false,
+                "delay": "0",
+                "weight": "0"
+            },
+            {
+                "active": true,
+                "clone": false,
+                "delay": "0",
+                "weight": "0"
+            },
+            {
+                "active": true,
+                "clone": false,
+                "delay": "0",
+                "weight": "0"
+            },
+            {
+                "active": true,
+                "clone": false,
+                "delay": "0",
+                "weight": "0"
+            },
+            {
+                "active": true,
+                "clone": false,
+                "delay": "0",
+                "weight": "0"
+            },
+            {
+                "active": true,
+                "clone": false,
+                "delay": "0",
+                "weight": "0"
+            }
+        ],
+        "name": "",
+        "delaying": "unrelated",
+        "msgControl": false,
+        "outputs": 6,
+        "x": 770,
+        "y": 180,
+        "wires": [
+            [
+                "5ce6712d.e2718"
+            ],
+            [
+                "e022f7ac.065aa"
+            ],
+            [
+                "dc922567.75775"
+            ],
+            [
+                "3eb04020.92d82"
+            ],
+            [
+                "6a7ad882.a1d9b"
+            ],
+            [
+                "743f8e3f.48f078"
+            ]
+        ]
+    },
+    {
+        "id": "3eb04020.92d82",
+        "type": "mqtt out",
+        "z": "70dbe5da.aa53cc",
+        "name": "",
+        "topic": "control/Gallery4",
+        "qos": "0",
+        "retain": "true",
+        "broker": "10461a06.ba0756",
+        "x": 1000,
+        "y": 200,
+        "wires": []
+    },
+    {
+        "id": "5ce6712d.e2718",
+        "type": "mqtt out",
+        "z": "70dbe5da.aa53cc",
+        "name": "",
+        "topic": "control/Gallery1",
+        "qos": "0",
+        "retain": "true",
+        "broker": "10461a06.ba0756",
+        "x": 1000,
+        "y": 80,
+        "wires": []
+    },
+    {
+        "id": "e022f7ac.065aa",
+        "type": "mqtt out",
+        "z": "70dbe5da.aa53cc",
+        "name": "",
+        "topic": "control/Gallery2",
+        "qos": "0",
+        "retain": "true",
+        "broker": "10461a06.ba0756",
+        "x": 1000,
+        "y": 120,
+        "wires": []
+    },
+    {
+        "id": "dc922567.75775",
+        "type": "mqtt out",
+        "z": "70dbe5da.aa53cc",
+        "name": "",
+        "topic": "control/Gallery3",
+        "qos": "0",
+        "retain": "true",
+        "broker": "10461a06.ba0756",
+        "x": 1000,
+        "y": 160,
+        "wires": []
+    },
+    {
+        "id": "8bc90fb1.97cf28",
+        "type": "inject",
+        "z": "70dbe5da.aa53cc",
+        "name": "ON",
+        "topic": "",
+        "payload": "true",
+        "payloadType": "bool",
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "x": 550,
+        "y": 140,
+        "wires": [
+            [
+                "69cdf7bc.2115f8"
+            ]
+        ]
+    },
+    {
+        "id": "fdc42d2e.53e208",
+        "type": "inject",
+        "z": "70dbe5da.aa53cc",
+        "name": "OFF",
+        "topic": "",
+        "payload": "false",
+        "payloadType": "bool",
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "x": 550,
+        "y": 220,
+        "wires": [
+            [
+                "69cdf7bc.2115f8"
+            ]
+        ]
+    },
+    {
+        "id": "50ac017d.96a9a8",
+        "type": "comment",
+        "z": "70dbe5da.aa53cc",
+        "name": "Street Level Gallery Lanterns",
+        "info": "",
+        "x": 560,
+        "y": 80,
+        "wires": []
+    },
+    {
+        "id": "4cd1e632.2105c8",
+        "type": "ui_switch",
+        "z": "70dbe5da.aa53cc",
+        "name": "Gallery Lanterns",
+        "label": "Gallery Lanterns",
+        "tooltip": "",
+        "group": "54cd4d65.3ffcf4",
+        "order": 0,
+        "width": 0,
+        "height": 0,
+        "passthru": false,
+        "decouple": "true",
+        "topic": "",
+        "style": "",
+        "onvalue": "true",
+        "onvalueType": "bool",
+        "onicon": "",
+        "oncolor": "",
+        "offvalue": "false",
+        "offvalueType": "bool",
+        "officon": "",
+        "offcolor": "",
+        "x": 520,
+        "y": 180,
+        "wires": [
+            [
+                "69cdf7bc.2115f8"
+            ]
+        ]
+    },
+    {
+        "id": "25ef16b2.97ba9a",
+        "type": "mqtt in",
+        "z": "70dbe5da.aa53cc",
+        "name": "",
+        "topic": "status/Gallery6",
+        "qos": "2",
+        "broker": "10461a06.ba0756",
+        "x": 140,
+        "y": 180,
+        "wires": [
+            [
+                "967ecf72.ebd28"
+            ]
+        ]
+    },
+    {
+        "id": "967ecf72.ebd28",
+        "type": "function",
+        "z": "70dbe5da.aa53cc",
+        "name": "toBool",
+        "func": "if (msg.payload === \"true\") {\n    msg.payload = true;\n}\nelse{\n    msg.payload = false;\n}\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 310,
+        "y": 180,
+        "wires": [
+            [
+                "4cd1e632.2105c8"
+            ]
+        ]
+    },
+    {
+        "id": "6a7ad882.a1d9b",
+        "type": "mqtt out",
+        "z": "70dbe5da.aa53cc",
+        "name": "",
+        "topic": "control/Gallery5",
+        "qos": "0",
+        "retain": "true",
+        "broker": "10461a06.ba0756",
+        "x": 1000,
+        "y": 240,
+        "wires": []
+    },
+    {
+        "id": "743f8e3f.48f078",
+        "type": "mqtt out",
+        "z": "70dbe5da.aa53cc",
+        "name": "",
+        "topic": "control/Gallery6",
+        "qos": "0",
+        "retain": "true",
+        "broker": "10461a06.ba0756",
+        "x": 1000,
+        "y": 280,
+        "wires": []
+    },
+    {
+        "id": "6206d37f.621fbc",
+        "type": "inject",
+        "z": "2479442c.f6fc2c",
+        "name": "ON",
+        "topic": "",
+        "payload": "true",
+        "payloadType": "bool",
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "x": 610,
+        "y": 140,
+        "wires": [
+            [
+                "f6bcf624.944478",
+                "491770a6.7d80a"
+            ]
+        ]
+    },
+    {
+        "id": "f6bcf624.944478",
+        "type": "mqtt out",
+        "z": "2479442c.f6fc2c",
+        "name": "",
+        "topic": "control/Billboard2",
+        "qos": "0",
+        "retain": "true",
+        "broker": "10461a06.ba0756",
+        "x": 870,
+        "y": 220,
+        "wires": []
+    },
+    {
+        "id": "57648c66.9a195c",
+        "type": "inject",
+        "z": "2479442c.f6fc2c",
+        "name": "OFF",
+        "topic": "",
+        "payload": "false",
+        "payloadType": "bool",
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "x": 610,
+        "y": 220,
+        "wires": [
+            [
+                "f6bcf624.944478",
+                "491770a6.7d80a"
+            ]
+        ]
+    },
+    {
+        "id": "491770a6.7d80a",
+        "type": "mqtt out",
+        "z": "2479442c.f6fc2c",
+        "name": "",
+        "topic": "control/Billboard1",
+        "qos": "0",
+        "retain": "true",
+        "broker": "10461a06.ba0756",
+        "x": 870,
+        "y": 140,
+        "wires": []
+    },
+    {
+        "id": "be0c0443.fdbaf",
+        "type": "comment",
+        "z": "2479442c.f6fc2c",
+        "name": "Street Level Billboard Lights",
+        "info": "",
+        "x": 620,
+        "y": 80,
+        "wires": []
+    },
+    {
+        "id": "a14605be.eb28a8",
+        "type": "ui_switch",
+        "z": "2479442c.f6fc2c",
+        "name": "Billboard Lights",
+        "label": "Billboard Lights",
+        "tooltip": "",
+        "group": "54cd4d65.3ffcf4",
+        "order": 0,
+        "width": 0,
+        "height": 0,
+        "passthru": false,
+        "decouple": "true",
+        "topic": "",
+        "style": "",
+        "onvalue": "true",
+        "onvalueType": "bool",
+        "onicon": "",
+        "oncolor": "",
+        "offvalue": "false",
+        "offvalueType": "bool",
+        "officon": "",
+        "offcolor": "",
+        "x": 580,
+        "y": 180,
+        "wires": [
+            [
+                "491770a6.7d80a",
+                "f6bcf624.944478"
+            ]
+        ]
+    },
+    {
+        "id": "7b1aadd9.b3ebbc",
+        "type": "mqtt in",
+        "z": "2479442c.f6fc2c",
+        "name": "",
+        "topic": "status/Billboard2",
+        "qos": "2",
+        "broker": "10461a06.ba0756",
+        "x": 200,
+        "y": 180,
+        "wires": [
+            [
+                "b6d1033d.bae718"
+            ]
+        ]
+    },
+    {
+        "id": "b6d1033d.bae718",
+        "type": "function",
+        "z": "2479442c.f6fc2c",
+        "name": "toBool",
+        "func": "if (msg.payload === \"true\") {\n    msg.payload = true;\n}\nelse{\n    msg.payload = false;\n}\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 370,
+        "y": 180,
+        "wires": [
+            [
+                "a14605be.eb28a8"
+            ]
+        ]
+    },
+    {
+        "id": "8ed5ad0e.72ec9",
+        "type": "inject",
+        "z": "94dd7d4d.98b8d",
+        "name": "ON",
+        "topic": "",
+        "payload": "true",
+        "payloadType": "bool",
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "x": 590,
+        "y": 160,
+        "wires": [
+            [
+                "49c73b42.980f7c"
+            ]
+        ]
+    },
+    {
+        "id": "49c73b42.980f7c",
+        "type": "mqtt out",
+        "z": "94dd7d4d.98b8d",
+        "name": "",
+        "topic": "control/TeaRoom",
+        "qos": "0",
+        "retain": "true",
+        "broker": "10461a06.ba0756",
+        "x": 850,
+        "y": 200,
+        "wires": []
+    },
+    {
+        "id": "314d80d8.970c88",
+        "type": "inject",
+        "z": "94dd7d4d.98b8d",
+        "name": "OFF",
+        "topic": "",
+        "payload": "false",
+        "payloadType": "bool",
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "x": 590,
+        "y": 240,
+        "wires": [
+            [
+                "49c73b42.980f7c"
+            ]
+        ]
+    },
+    {
+        "id": "47b8802b.7e7bc8",
+        "type": "comment",
+        "z": "94dd7d4d.98b8d",
+        "name": "Ground Level Tea Room",
+        "info": "",
+        "x": 590,
+        "y": 100,
+        "wires": []
+    },
+    {
+        "id": "78ae7366.85a274",
+        "type": "ui_switch",
+        "z": "94dd7d4d.98b8d",
+        "name": "Tea Room",
+        "label": "Tea Room",
+        "tooltip": "",
+        "group": "3f777e1e.a6a842",
+        "order": 0,
+        "width": 0,
+        "height": 0,
+        "passthru": false,
+        "decouple": "true",
+        "topic": "",
+        "style": "",
+        "onvalue": "true",
+        "onvalueType": "bool",
+        "onicon": "",
+        "oncolor": "",
+        "offvalue": "false",
+        "offvalueType": "bool",
+        "officon": "",
+        "offcolor": "",
+        "x": 580,
+        "y": 200,
+        "wires": [
+            [
+                "49c73b42.980f7c"
+            ]
+        ]
+    },
+    {
+        "id": "bdccae81.b34688",
+        "type": "mqtt in",
+        "z": "94dd7d4d.98b8d",
+        "name": "",
+        "topic": "status/TeaRoom",
+        "qos": "2",
+        "broker": "10461a06.ba0756",
+        "x": 180,
+        "y": 200,
+        "wires": [
+            [
+                "36480421.b9cd1c"
+            ]
+        ]
+    },
+    {
+        "id": "36480421.b9cd1c",
+        "type": "function",
+        "z": "94dd7d4d.98b8d",
+        "name": "toBool",
+        "func": "if (msg.payload === \"true\") {\n    msg.payload = true;\n}\nelse{\n    msg.payload = false;\n}\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 350,
+        "y": 200,
+        "wires": [
+            [
+                "78ae7366.85a274"
+            ]
+        ]
+    },
+    {
+        "id": "92ca86d0.4e59a",
+        "type": "inject",
+        "z": "97e27b97.7485b8",
+        "name": "ON",
+        "topic": "",
+        "payload": "true",
+        "payloadType": "bool",
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "x": 590,
+        "y": 160,
+        "wires": [
+            [
+                "146914b5.d2cb8b"
+            ]
+        ]
+    },
+    {
+        "id": "146914b5.d2cb8b",
+        "type": "mqtt out",
+        "z": "97e27b97.7485b8",
+        "name": "",
+        "topic": "control/BedRoom",
+        "qos": "0",
+        "retain": "true",
+        "broker": "10461a06.ba0756",
+        "x": 850,
+        "y": 200,
+        "wires": []
+    },
+    {
+        "id": "b87a1274.ead59",
+        "type": "inject",
+        "z": "97e27b97.7485b8",
+        "name": "OFF",
+        "topic": "",
+        "payload": "false",
+        "payloadType": "bool",
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "x": 590,
+        "y": 240,
+        "wires": [
+            [
+                "146914b5.d2cb8b"
+            ]
+        ]
+    },
+    {
+        "id": "882faa5e.09e79",
+        "type": "comment",
+        "z": "97e27b97.7485b8",
+        "name": "Ground Level Bed Room",
+        "info": "",
+        "x": 590,
+        "y": 100,
+        "wires": []
+    },
+    {
+        "id": "959e80c.36c3d8",
+        "type": "ui_switch",
+        "z": "97e27b97.7485b8",
+        "name": "Bed Room",
+        "label": "Bed Room",
+        "tooltip": "",
+        "group": "3f777e1e.a6a842",
+        "order": 0,
+        "width": 0,
+        "height": 0,
+        "passthru": false,
+        "decouple": "true",
+        "topic": "",
+        "style": "",
+        "onvalue": "true",
+        "onvalueType": "bool",
+        "onicon": "",
+        "oncolor": "",
+        "offvalue": "false",
+        "offvalueType": "bool",
+        "officon": "",
+        "offcolor": "",
+        "x": 570,
+        "y": 200,
+        "wires": [
+            [
+                "146914b5.d2cb8b"
+            ]
+        ]
+    },
+    {
+        "id": "42bb82a.459fc7c",
+        "type": "mqtt in",
+        "z": "97e27b97.7485b8",
+        "name": "",
+        "topic": "status/BedRoom",
+        "qos": "2",
+        "broker": "10461a06.ba0756",
+        "x": 180,
+        "y": 200,
+        "wires": [
+            [
+                "4fbbe48e.b38394"
+            ]
+        ]
+    },
+    {
+        "id": "4fbbe48e.b38394",
+        "type": "function",
+        "z": "97e27b97.7485b8",
+        "name": "toBool",
+        "func": "if (msg.payload === \"true\") {\n    msg.payload = true;\n}\nelse{\n    msg.payload = false;\n}\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 350,
+        "y": 200,
+        "wires": [
+            [
+                "959e80c.36c3d8"
+            ]
+        ]
+    },
+    {
+        "id": "49628c24.4055ac",
+        "type": "msg-router",
+        "z": "f816db9b.63b0f8",
+        "routerType": "broadcast",
+        "topicDependent": false,
+        "counterReset": false,
+        "msgKeyField": "payload",
+        "undefinedHash": false,
+        "outputsInfo": [
+            {
+                "active": true,
+                "clone": false,
+                "delay": "0",
+                "weight": "0"
+            },
+            {
+                "active": true,
+                "clone": false,
+                "delay": "0",
+                "weight": "0"
+            },
+            {
+                "active": true,
+                "clone": false,
+                "delay": "0",
+                "weight": "0"
+            }
+        ],
+        "name": "",
+        "delaying": "unrelated",
+        "msgControl": false,
+        "outputs": 3,
+        "x": 770,
+        "y": 180,
+        "wires": [
+            [
+                "f9fccaca.9716a"
+            ],
+            [
+                "86c7d557.9a398"
+            ],
+            [
+                "1097071.208f9f9"
+            ]
+        ]
+    },
+    {
+        "id": "f9fccaca.9716a",
+        "type": "mqtt out",
+        "z": "f816db9b.63b0f8",
+        "name": "",
+        "topic": "control/Lantern1",
+        "qos": "0",
+        "retain": "true",
+        "broker": "10461a06.ba0756",
+        "x": 1000,
+        "y": 140,
+        "wires": []
+    },
+    {
+        "id": "86c7d557.9a398",
+        "type": "mqtt out",
+        "z": "f816db9b.63b0f8",
+        "name": "",
+        "topic": "control/Lantern2",
+        "qos": "0",
+        "retain": "true",
+        "broker": "10461a06.ba0756",
+        "x": 1000,
+        "y": 180,
+        "wires": []
+    },
+    {
+        "id": "1097071.208f9f9",
+        "type": "mqtt out",
+        "z": "f816db9b.63b0f8",
+        "name": "",
+        "topic": "control/Lantern3",
+        "qos": "0",
+        "retain": "true",
+        "broker": "10461a06.ba0756",
+        "x": 1000,
+        "y": 220,
+        "wires": []
+    },
+    {
+        "id": "ce2c0491.bbbc",
+        "type": "inject",
+        "z": "f816db9b.63b0f8",
+        "name": "ON",
+        "topic": "",
+        "payload": "true",
+        "payloadType": "bool",
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "x": 550,
+        "y": 140,
+        "wires": [
+            [
+                "49628c24.4055ac"
+            ]
+        ]
+    },
+    {
+        "id": "432a0e6.09192f",
+        "type": "inject",
+        "z": "f816db9b.63b0f8",
+        "name": "OFF",
+        "topic": "",
+        "payload": "false",
+        "payloadType": "bool",
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "x": 550,
+        "y": 220,
+        "wires": [
+            [
+                "49628c24.4055ac"
+            ]
+        ]
+    },
+    {
+        "id": "9c8a49a6.8dd818",
+        "type": "comment",
+        "z": "f816db9b.63b0f8",
+        "name": "Ground Level Lanterns",
+        "info": "",
+        "x": 540,
+        "y": 80,
+        "wires": []
+    },
+    {
+        "id": "4a70546f.ee5304",
+        "type": "ui_switch",
+        "z": "f816db9b.63b0f8",
+        "name": "Lanterns",
+        "label": "Lanterns",
+        "tooltip": "",
+        "group": "2a8ba6a2.efee32",
+        "order": 0,
+        "width": 0,
+        "height": 0,
+        "passthru": false,
+        "decouple": "true",
+        "topic": "",
+        "style": "",
+        "onvalue": "true",
+        "onvalueType": "bool",
+        "onicon": "",
+        "oncolor": "",
+        "offvalue": "false",
+        "offvalueType": "bool",
+        "officon": "",
+        "offcolor": "",
+        "x": 540,
+        "y": 180,
+        "wires": [
+            [
+                "49628c24.4055ac"
+            ]
+        ]
+    },
+    {
+        "id": "3787e8c.aae0098",
+        "type": "mqtt in",
+        "z": "f816db9b.63b0f8",
+        "name": "",
+        "topic": "status/Lantern3",
+        "qos": "2",
+        "broker": "10461a06.ba0756",
+        "x": 140,
+        "y": 180,
+        "wires": [
+            [
+                "722de82a.6327a8"
+            ]
+        ]
+    },
+    {
+        "id": "722de82a.6327a8",
+        "type": "function",
+        "z": "f816db9b.63b0f8",
+        "name": "toBool",
+        "func": "if (msg.payload === \"true\") {\n    msg.payload = true;\n}\nelse{\n    msg.payload = false;\n}\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 310,
+        "y": 180,
+        "wires": [
+            [
+                "4a70546f.ee5304"
+            ]
+        ]
+    },
+    {
+        "id": "7d73d2b6.68f6a4",
+        "type": "inject",
+        "z": "752a07e4.0379c",
+        "name": "ON",
+        "topic": "",
+        "payload": "true",
+        "payloadType": "bool",
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "x": 610,
+        "y": 140,
+        "wires": [
+            [
+                "654442e9.05edac",
+                "2759cc64.05b0dc"
+            ]
+        ]
+    },
+    {
+        "id": "654442e9.05edac",
+        "type": "mqtt out",
+        "z": "752a07e4.0379c",
+        "name": "",
+        "topic": "control/Bridge2",
+        "qos": "0",
+        "retain": "true",
+        "broker": "10461a06.ba0756",
+        "x": 860,
+        "y": 220,
+        "wires": []
+    },
+    {
+        "id": "6b3d2837.d4bcc8",
+        "type": "inject",
+        "z": "752a07e4.0379c",
+        "name": "OFF",
+        "topic": "",
+        "payload": "false",
+        "payloadType": "bool",
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "x": 610,
+        "y": 220,
+        "wires": [
+            [
+                "654442e9.05edac",
+                "2759cc64.05b0dc"
+            ]
+        ]
+    },
+    {
+        "id": "2759cc64.05b0dc",
+        "type": "mqtt out",
+        "z": "752a07e4.0379c",
+        "name": "",
+        "topic": "control/Bridge1",
+        "qos": "0",
+        "retain": "true",
+        "broker": "10461a06.ba0756",
+        "x": 860,
+        "y": 140,
+        "wires": []
+    },
+    {
+        "id": "df2f08c0.899748",
+        "type": "comment",
+        "z": "752a07e4.0379c",
+        "name": "Ground Level Bridge Decoration Lights",
+        "info": "",
+        "x": 650,
+        "y": 80,
+        "wires": []
+    },
+    {
+        "id": "4494407c.7b86b8",
+        "type": "ui_switch",
+        "z": "752a07e4.0379c",
+        "name": "Decoration Lights",
+        "label": "Bridge Lights",
+        "tooltip": "",
+        "group": "2a8ba6a2.efee32",
+        "order": 0,
+        "width": 0,
+        "height": 0,
+        "passthru": false,
+        "decouple": "true",
+        "topic": "",
+        "style": "",
+        "onvalue": "true",
+        "onvalueType": "bool",
+        "onicon": "",
+        "oncolor": "",
+        "offvalue": "false",
+        "offvalueType": "bool",
+        "officon": "",
+        "offcolor": "",
+        "x": 570,
+        "y": 180,
+        "wires": [
+            [
+                "2759cc64.05b0dc",
+                "654442e9.05edac"
+            ]
+        ]
+    },
+    {
+        "id": "baff7fd0.233e98",
+        "type": "mqtt in",
+        "z": "752a07e4.0379c",
+        "name": "",
+        "topic": "status/Bridge2",
+        "qos": "2",
+        "broker": "10461a06.ba0756",
+        "x": 200,
+        "y": 180,
+        "wires": [
+            [
+                "c10268e1.408448"
+            ]
+        ]
+    },
+    {
+        "id": "c10268e1.408448",
+        "type": "function",
+        "z": "752a07e4.0379c",
+        "name": "toBool",
+        "func": "if (msg.payload === \"true\") {\n    msg.payload = true;\n}\nelse{\n    msg.payload = false;\n}\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 370,
+        "y": 180,
+        "wires": [
+            [
+                "4494407c.7b86b8"
+            ]
+        ]
+    },
+    {
+        "id": "4267a42d.91568c",
+        "type": "inject",
+        "z": "2985e277.78a676",
+        "name": "ON",
+        "topic": "",
+        "payload": "true",
+        "payloadType": "bool",
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "x": 630,
+        "y": 300,
+        "wires": [
+            [
+                "da7fa858.e3d15"
+            ]
+        ]
+    },
+    {
+        "id": "da7fa858.e3d15",
+        "type": "mqtt out",
+        "z": "2985e277.78a676",
+        "name": "",
+        "topic": "control/Marketstall",
+        "qos": "0",
+        "retain": "true",
+        "broker": "10461a06.ba0756",
+        "x": 890,
+        "y": 340,
+        "wires": []
+    },
+    {
+        "id": "af41b387.5cbc98",
+        "type": "inject",
+        "z": "2985e277.78a676",
+        "name": "OFF",
+        "topic": "",
+        "payload": "false",
+        "payloadType": "bool",
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "x": 630,
+        "y": 380,
+        "wires": [
+            [
+                "da7fa858.e3d15"
+            ]
+        ]
+    },
+    {
+        "id": "79c313a6.e2c0dc",
+        "type": "comment",
+        "z": "2985e277.78a676",
+        "name": "Ground Level Marketstall",
+        "info": "",
+        "x": 630,
+        "y": 240,
+        "wires": []
+    },
+    {
+        "id": "95daed32.700d38",
+        "type": "ui_switch",
+        "z": "2985e277.78a676",
+        "name": "Marketstall",
+        "label": "Marketstall",
+        "tooltip": "",
+        "group": "2a8ba6a2.efee32",
+        "order": 0,
+        "width": 0,
+        "height": 0,
+        "passthru": false,
+        "decouple": "true",
+        "topic": "",
+        "style": "",
+        "onvalue": "true",
+        "onvalueType": "bool",
+        "onicon": "",
+        "oncolor": "",
+        "offvalue": "false",
+        "offvalueType": "bool",
+        "officon": "",
+        "offcolor": "",
+        "x": 610,
+        "y": 340,
+        "wires": [
+            [
+                "da7fa858.e3d15"
+            ]
+        ]
+    },
+    {
+        "id": "c98e252c.f1687",
+        "type": "mqtt in",
+        "z": "2985e277.78a676",
+        "name": "",
+        "topic": "status/Marketstall",
+        "qos": "2",
+        "broker": "10461a06.ba0756",
+        "x": 230,
+        "y": 340,
+        "wires": [
+            [
+                "fe01ec9e.5b0418"
+            ]
+        ]
+    },
+    {
+        "id": "fe01ec9e.5b0418",
+        "type": "function",
+        "z": "2985e277.78a676",
+        "name": "toBool",
+        "func": "if (msg.payload === \"true\") {\n    msg.payload = true;\n}\nelse{\n    msg.payload = false;\n}\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 390,
+        "y": 340,
+        "wires": [
+            [
+                "95daed32.700d38"
+            ]
+        ]
+    },
+    {
+        "id": "6c2d5213.a4cba4",
+        "type": "inject",
+        "z": "29733b9f.023bc4",
+        "name": "ON",
+        "topic": "",
+        "payload": "true",
+        "payloadType": "bool",
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "x": 590,
+        "y": 120,
+        "wires": [
+            [
+                "55f2997c.ef386"
+            ]
+        ]
+    },
+    {
+        "id": "55f2997c.ef386",
+        "type": "mqtt out",
+        "z": "29733b9f.023bc4",
+        "name": "",
+        "topic": "control/Phone",
+        "qos": "0",
+        "retain": "true",
+        "broker": "10461a06.ba0756",
+        "x": 840,
+        "y": 160,
+        "wires": []
+    },
+    {
+        "id": "5767e849.5ba858",
+        "type": "inject",
+        "z": "29733b9f.023bc4",
+        "name": "OFF",
+        "topic": "",
+        "payload": "false",
+        "payloadType": "bool",
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "x": 590,
+        "y": 200,
+        "wires": [
+            [
+                "55f2997c.ef386"
+            ]
+        ]
+    },
+    {
+        "id": "81abf542.9c38a8",
+        "type": "comment",
+        "z": "29733b9f.023bc4",
+        "name": "Ground Level Phone Light",
+        "info": "",
+        "x": 590,
+        "y": 60,
+        "wires": []
+    },
+    {
+        "id": "4ef1a2ea.18b5e4",
+        "type": "ui_switch",
+        "z": "29733b9f.023bc4",
+        "name": "Phone Light",
+        "label": "Phone Light",
+        "tooltip": "",
+        "group": "2a8ba6a2.efee32",
+        "order": 0,
+        "width": 0,
+        "height": 0,
+        "passthru": false,
+        "decouple": "true",
+        "topic": "",
+        "style": "",
+        "onvalue": "true",
+        "onvalueType": "bool",
+        "onicon": "",
+        "oncolor": "",
+        "offvalue": "false",
+        "offvalueType": "bool",
+        "officon": "",
+        "offcolor": "",
+        "x": 570,
+        "y": 160,
+        "wires": [
+            [
+                "55f2997c.ef386"
+            ]
+        ]
+    },
+    {
+        "id": "62c7c341.b450c4",
+        "type": "mqtt in",
+        "z": "29733b9f.023bc4",
+        "name": "",
+        "topic": "status/Phone",
+        "qos": "2",
+        "broker": "10461a06.ba0756",
+        "x": 170,
+        "y": 160,
+        "wires": [
+            [
+                "61111f57.181d1"
+            ]
+        ]
+    },
+    {
+        "id": "61111f57.181d1",
+        "type": "function",
+        "z": "29733b9f.023bc4",
+        "name": "toBool",
+        "func": "if (msg.payload === \"true\") {\n    msg.payload = true;\n}\nelse{\n    msg.payload = false;\n}\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 350,
+        "y": 160,
+        "wires": [
+            [
+                "4ef1a2ea.18b5e4"
+            ]
+        ]
+    },
+    {
+        "id": "c9c630bc.eaf698",
+        "type": "subflow:2985e277.78a676",
+        "z": "cc7a15ad.2c246",
+        "name": "Stall",
+        "x": 970,
+        "y": 600,
+        "wires": []
+    },
+    {
+        "id": "6123f702.1901f",
+        "type": "subflow:29733b9f.023bc4",
+        "z": "cc7a15ad.2c246",
+        "name": "",
+        "x": 970,
+        "y": 680,
+        "wires": []
+    },
+    {
+        "id": "f29b60e.1e4112",
+        "type": "subflow:752a07e4.0379c",
+        "z": "cc7a15ad.2c246",
+        "name": "",
+        "x": 1030,
+        "y": 640,
+        "wires": []
+    },
+    {
+        "id": "27cd8d84.a2e3b2",
+        "type": "subflow:f816db9b.63b0f8",
+        "z": "cc7a15ad.2c246",
+        "name": "",
+        "x": 980,
+        "y": 720,
+        "wires": []
+    },
+    {
+        "id": "955c8aac.76023",
+        "type": "subflow:97e27b97.7485b8",
+        "z": "cc7a15ad.2c246",
+        "name": "",
+        "x": 430,
+        "y": 640,
+        "wires": []
+    },
+    {
+        "id": "6f71f506.87e9b4",
+        "type": "subflow:94dd7d4d.98b8d",
+        "z": "cc7a15ad.2c246",
+        "name": "",
+        "x": 420,
+        "y": 680,
+        "wires": []
+    },
+    {
+        "id": "99d34112.738438",
+        "type": "subflow:2479442c.f6fc2c",
+        "z": "cc7a15ad.2c246",
+        "name": "",
+        "x": 420,
+        "y": 540,
+        "wires": []
+    },
+    {
+        "id": "6fac81b9.7323c",
+        "type": "subflow:bb9b587.bba2828",
+        "z": "cc7a15ad.2c246",
+        "name": "",
+        "x": 430,
+        "y": 380,
+        "wires": []
+    },
+    {
+        "id": "2c218bed.e90bf4",
+        "type": "subflow:845ce9a.fbc6218",
+        "z": "cc7a15ad.2c246",
+        "name": "",
+        "x": 480,
+        "y": 420,
+        "wires": []
+    },
+    {
+        "id": "378def4e.a1de98",
+        "type": "subflow:4db881d7.7503f8",
+        "z": "cc7a15ad.2c246",
+        "name": "",
+        "x": 460,
+        "y": 460,
+        "wires": []
+    },
+    {
+        "id": "86569715.e2cb38",
+        "type": "subflow:dbe2a1e7.2a0598",
+        "z": "cc7a15ad.2c246",
+        "name": "",
+        "x": 410,
+        "y": 500,
+        "wires": []
+    },
+    {
+        "id": "b5add994.f731d8",
+        "type": "subflow:84472f1.1376bd",
+        "z": "cc7a15ad.2c246",
+        "name": "",
+        "x": 420,
+        "y": 320,
+        "wires": []
+    },
+    {
+        "id": "c2fb3c2b.108f3",
+        "type": "subflow:332f23ef.59d28c",
+        "z": "cc7a15ad.2c246",
+        "name": "",
+        "x": 460,
+        "y": 240,
+        "wires": []
+    },
+    {
+        "id": "94878df7.67be8",
+        "type": "subflow:f618c951.590058",
+        "z": "cc7a15ad.2c246",
+        "name": "",
+        "x": 410,
+        "y": 140,
+        "wires": []
+    },
+    {
+        "id": "1d62d237.adcfe6",
+        "type": "subflow:38c06923.d5a96e",
+        "z": "cc7a15ad.2c246",
+        "name": "",
+        "x": 440,
+        "y": 40,
+        "wires": []
+    },
+    {
+        "id": "24567e92.f1bc32",
+        "type": "subflow:5d396833.71e5c8",
+        "z": "cc7a15ad.2c246",
+        "name": "",
+        "x": 470,
+        "y": 80,
+        "wires": []
+    },
+    {
+        "id": "a4d4d2b6.110f58",
+        "type": "subflow:ae80d3b2.6b069",
+        "z": "cc7a15ad.2c246",
+        "name": "",
+        "x": 430,
+        "y": 180,
+        "wires": []
+    },
+    {
+        "id": "b5fef511.7735b8",
+        "type": "subflow:70dbe5da.aa53cc",
+        "z": "cc7a15ad.2c246",
+        "name": "",
+        "x": 440,
+        "y": 580,
+        "wires": []
+    },
+    {
+        "id": "f586ebdc.4ccb8",
+        "type": "ui_button",
+        "z": "cc7a15ad.2c246",
+        "name": "",
+        "group": "38feb799.4b4e8",
+        "order": 1,
+        "width": "2",
+        "height": "1",
+        "passthru": false,
+        "label": "On",
+        "tooltip": "All lights on",
+        "color": "",
+        "bgcolor": "",
+        "icon": "",
+        "payload": "true",
+        "payloadType": "bool",
+        "topic": "",
+        "x": 90,
+        "y": 260,
+        "wires": [
+            [
+                "248f2122.5675b6"
+            ]
+        ]
+    },
+    {
+        "id": "dcddcaee.9a2868",
+        "type": "ui_button",
+        "z": "cc7a15ad.2c246",
+        "name": "",
+        "group": "38feb799.4b4e8",
+        "order": 2,
+        "width": "2",
+        "height": "1",
+        "passthru": false,
+        "label": "Off",
+        "tooltip": "All lights off",
+        "color": "",
+        "bgcolor": "",
+        "icon": "",
+        "payload": "false",
+        "payloadType": "bool",
+        "topic": "",
+        "x": 90,
+        "y": 300,
+        "wires": [
+            [
+                "248f2122.5675b6"
+            ]
+        ]
+    },
+    {
+        "id": "248f2122.5675b6",
+        "type": "msg-router",
+        "z": "cc7a15ad.2c246",
+        "routerType": "broadcast",
+        "topicDependent": false,
+        "counterReset": false,
+        "msgKeyField": "payload",
+        "undefinedHash": false,
+        "outputsInfo": [
+            {
+                "active": true,
+                "clone": false,
+                "delay": "0",
+                "weight": "0"
+            },
+            {
+                "active": true,
+                "clone": false,
+                "delay": "0",
+                "weight": "0"
+            },
+            {
+                "active": true,
+                "clone": false,
+                "delay": "0",
+                "weight": "0"
+            }
+        ],
+        "name": "",
+        "delaying": "unrelated",
+        "msgControl": false,
+        "outputs": 3,
+        "x": 250,
+        "y": 280,
+        "wires": [
+            [
+                "c2fb3c2b.108f3"
+            ],
+            [
+                "8e387615.c12d1"
+            ],
+            [
+                "b5add994.f731d8"
+            ]
+        ]
+    },
+    {
+        "id": "54b1ce24.25ce58",
+        "type": "msg-router",
+        "z": "cc7a15ad.2c246",
+        "routerType": "broadcast",
+        "topicDependent": false,
+        "counterReset": false,
+        "msgKeyField": "payload",
+        "undefinedHash": false,
+        "outputsInfo": [
+            {
+                "active": true,
+                "clone": false,
+                "delay": "0",
+                "weight": "0"
+            },
+            {
+                "active": true,
+                "clone": false,
+                "delay": "0",
+                "weight": "0"
+            }
+        ],
+        "name": "",
+        "delaying": "unrelated",
+        "msgControl": false,
+        "outputs": 2,
+        "x": 250,
+        "y": 160,
+        "wires": [
+            [
+                "94878df7.67be8"
+            ],
+            [
+                "a4d4d2b6.110f58"
+            ]
+        ]
+    },
+    {
+        "id": "9dc8c00d.8b861",
+        "type": "ui_button",
+        "z": "cc7a15ad.2c246",
+        "name": "",
+        "group": "93e617d5.c1bbe8",
+        "order": 2,
+        "width": "2",
+        "height": "1",
+        "passthru": false,
+        "label": "On",
+        "tooltip": "All lights on",
+        "color": "",
+        "bgcolor": "",
+        "icon": "",
+        "payload": "true",
+        "payloadType": "bool",
+        "topic": "",
+        "x": 90,
+        "y": 140,
+        "wires": [
+            [
+                "54b1ce24.25ce58"
+            ]
+        ]
+    },
+    {
+        "id": "fbfb6754.3e588",
+        "type": "ui_button",
+        "z": "cc7a15ad.2c246",
+        "name": "",
+        "group": "93e617d5.c1bbe8",
+        "order": 2,
+        "width": "2",
+        "height": "1",
+        "passthru": false,
+        "label": "Off",
+        "tooltip": "All lights off",
+        "color": "",
+        "bgcolor": "",
+        "icon": "",
+        "payload": "false",
+        "payloadType": "bool",
+        "topic": "",
+        "x": 90,
+        "y": 180,
+        "wires": [
+            [
+                "54b1ce24.25ce58"
+            ]
+        ]
+    },
+    {
+        "id": "4f16b8c7.27ee38",
+        "type": "msg-router",
+        "z": "cc7a15ad.2c246",
+        "routerType": "broadcast",
+        "topicDependent": false,
+        "counterReset": false,
+        "msgKeyField": "payload",
+        "undefinedHash": false,
+        "outputsInfo": [
+            {
+                "active": true,
+                "clone": false,
+                "delay": "0",
+                "weight": "0"
+            },
+            {
+                "active": true,
+                "clone": false,
+                "delay": "0",
+                "weight": "0"
+            }
+        ],
+        "name": "",
+        "delaying": "unrelated",
+        "msgControl": false,
+        "outputs": 2,
+        "x": 250,
+        "y": 60,
+        "wires": [
+            [
+                "1d62d237.adcfe6"
+            ],
+            [
+                "24567e92.f1bc32"
+            ]
+        ]
+    },
+    {
+        "id": "7553d6c1.1eca48",
+        "type": "ui_button",
+        "z": "cc7a15ad.2c246",
+        "name": "",
+        "group": "77ea353.b2ffecc",
+        "order": 2,
+        "width": "2",
+        "height": "1",
+        "passthru": false,
+        "label": "On",
+        "tooltip": "All lights on",
+        "color": "",
+        "bgcolor": "",
+        "icon": "",
+        "payload": "true",
+        "payloadType": "bool",
+        "topic": "",
+        "x": 90,
+        "y": 40,
+        "wires": [
+            [
+                "4f16b8c7.27ee38"
+            ]
+        ]
+    },
+    {
+        "id": "a688b6e1.35326",
+        "type": "ui_button",
+        "z": "cc7a15ad.2c246",
+        "name": "",
+        "group": "77ea353.b2ffecc",
+        "order": 2,
+        "width": "2",
+        "height": "1",
+        "passthru": false,
+        "label": "Off",
+        "tooltip": "All lights off",
+        "color": "",
+        "bgcolor": "",
+        "icon": "",
+        "payload": "false",
+        "payloadType": "bool",
+        "topic": "",
+        "x": 90,
+        "y": 80,
+        "wires": [
+            [
+                "4f16b8c7.27ee38"
+            ]
+        ]
+    },
+    {
+        "id": "ec31ada4.b9d28",
+        "type": "msg-router",
+        "z": "cc7a15ad.2c246",
+        "routerType": "broadcast",
+        "topicDependent": false,
+        "counterReset": false,
+        "msgKeyField": "payload",
+        "undefinedHash": false,
+        "outputsInfo": [
+            {
+                "active": true,
+                "clone": false,
+                "delay": "0",
+                "weight": "0"
+            },
+            {
+                "active": true,
+                "clone": false,
+                "delay": "0",
+                "weight": "0"
+            },
+            {
+                "active": true,
+                "clone": false,
+                "delay": "0",
+                "weight": "0"
+            },
+            {
+                "active": true,
+                "clone": false,
+                "delay": "0",
+                "weight": "0"
+            },
+            {
+                "active": true,
+                "clone": false,
+                "delay": "0",
+                "weight": "0"
+            },
+            {
+                "active": true,
+                "clone": false,
+                "delay": "0",
+                "weight": "0"
+            }
+        ],
+        "name": "",
+        "delaying": "unrelated",
+        "msgControl": false,
+        "outputs": 6,
+        "x": 250,
+        "y": 480,
+        "wires": [
+            [
+                "6fac81b9.7323c"
+            ],
+            [
+                "2c218bed.e90bf4"
+            ],
+            [
+                "378def4e.a1de98"
+            ],
+            [
+                "86569715.e2cb38"
+            ],
+            [
+                "99d34112.738438"
+            ],
+            [
+                "b5fef511.7735b8"
+            ]
+        ]
+    },
+    {
+        "id": "8ae8997b.ab4d8",
+        "type": "ui_button",
+        "z": "cc7a15ad.2c246",
+        "name": "",
+        "group": "54cd4d65.3ffcf4",
+        "order": 2,
+        "width": "2",
+        "height": "1",
+        "passthru": false,
+        "label": "On",
+        "tooltip": "All lights on",
+        "color": "",
+        "bgcolor": "",
+        "icon": "",
+        "payload": "true",
+        "payloadType": "bool",
+        "topic": "",
+        "x": 90,
+        "y": 460,
+        "wires": [
+            [
+                "ec31ada4.b9d28"
+            ]
+        ]
+    },
+    {
+        "id": "def4ff98.acbd4",
+        "type": "ui_button",
+        "z": "cc7a15ad.2c246",
+        "name": "",
+        "group": "54cd4d65.3ffcf4",
+        "order": 2,
+        "width": "2",
+        "height": "1",
+        "passthru": false,
+        "label": "Off",
+        "tooltip": "All lights off",
+        "color": "",
+        "bgcolor": "",
+        "icon": "",
+        "payload": "false",
+        "payloadType": "bool",
+        "topic": "",
+        "x": 90,
+        "y": 500,
+        "wires": [
+            [
+                "ec31ada4.b9d28"
+            ]
+        ]
+    },
+    {
+        "id": "33b9f2db.c1f95e",
+        "type": "msg-router",
+        "z": "cc7a15ad.2c246",
+        "routerType": "broadcast",
+        "topicDependent": false,
+        "counterReset": false,
+        "msgKeyField": "payload",
+        "undefinedHash": false,
+        "outputsInfo": [
+            {
+                "active": true,
+                "clone": false,
+                "delay": "0",
+                "weight": "0"
+            },
+            {
+                "active": true,
+                "clone": false,
+                "delay": "0",
+                "weight": "0"
+            }
+        ],
+        "name": "",
+        "delaying": "unrelated",
+        "msgControl": false,
+        "outputs": 2,
+        "x": 250,
+        "y": 660,
+        "wires": [
+            [
+                "955c8aac.76023"
+            ],
+            [
+                "6f71f506.87e9b4"
+            ]
+        ]
+    },
+    {
+        "id": "835352f0.7424a",
+        "type": "ui_button",
+        "z": "cc7a15ad.2c246",
+        "name": "",
+        "group": "3f777e1e.a6a842",
+        "order": 2,
+        "width": "2",
+        "height": "1",
+        "passthru": false,
+        "label": "On",
+        "tooltip": "All lights on",
+        "color": "",
+        "bgcolor": "",
+        "icon": "",
+        "payload": "true",
+        "payloadType": "bool",
+        "topic": "",
+        "x": 90,
+        "y": 640,
+        "wires": [
+            [
+                "33b9f2db.c1f95e"
+            ]
+        ]
+    },
+    {
+        "id": "bebc1968.1fa528",
+        "type": "ui_button",
+        "z": "cc7a15ad.2c246",
+        "name": "",
+        "group": "3f777e1e.a6a842",
+        "order": 2,
+        "width": "2",
+        "height": "1",
+        "passthru": false,
+        "label": "Off",
+        "tooltip": "All lights off",
+        "color": "",
+        "bgcolor": "",
+        "icon": "",
+        "payload": "false",
+        "payloadType": "bool",
+        "topic": "",
+        "x": 90,
+        "y": 680,
+        "wires": [
+            [
+                "33b9f2db.c1f95e"
+            ]
+        ]
+    },
+    {
+        "id": "6edc1302.c4a93c",
+        "type": "msg-router",
+        "z": "cc7a15ad.2c246",
+        "routerType": "broadcast",
+        "topicDependent": false,
+        "counterReset": false,
+        "msgKeyField": "payload",
+        "undefinedHash": false,
+        "outputsInfo": [
+            {
+                "active": true,
+                "clone": false,
+                "delay": "0",
+                "weight": "0"
+            },
+            {
+                "active": true,
+                "clone": false,
+                "delay": "0",
+                "weight": "0"
+            },
+            {
+                "active": true,
+                "clone": false,
+                "delay": "0",
+                "weight": "0"
+            },
+            {
+                "active": true,
+                "clone": false,
+                "delay": "0",
+                "weight": "0"
+            }
+        ],
+        "name": "",
+        "delaying": "unrelated",
+        "msgControl": false,
+        "outputs": 4,
+        "x": 810,
+        "y": 660,
+        "wires": [
+            [
+                "c9c630bc.eaf698"
+            ],
+            [
+                "f29b60e.1e4112"
+            ],
+            [
+                "6123f702.1901f"
+            ],
+            [
+                "27cd8d84.a2e3b2"
+            ]
+        ]
+    },
+    {
+        "id": "eeb562a0.2aa768",
+        "type": "ui_button",
+        "z": "cc7a15ad.2c246",
+        "name": "",
+        "group": "2a8ba6a2.efee32",
+        "order": 2,
+        "width": "2",
+        "height": "1",
+        "passthru": false,
+        "label": "On",
+        "tooltip": "All lights on",
+        "color": "",
+        "bgcolor": "",
+        "icon": "",
+        "payload": "true",
+        "payloadType": "bool",
+        "topic": "",
+        "x": 650,
+        "y": 640,
+        "wires": [
+            [
+                "6edc1302.c4a93c"
+            ]
+        ]
+    },
+    {
+        "id": "6b54deb5.3e4818",
+        "type": "ui_button",
+        "z": "cc7a15ad.2c246",
+        "name": "",
+        "group": "2a8ba6a2.efee32",
+        "order": 2,
+        "width": "2",
+        "height": "1",
+        "passthru": false,
+        "label": "Off",
+        "tooltip": "All lights off",
+        "color": "",
+        "bgcolor": "",
+        "icon": "",
+        "payload": "false",
+        "payloadType": "bool",
+        "topic": "",
+        "x": 650,
+        "y": 680,
+        "wires": [
+            [
+                "6edc1302.c4a93c"
+            ]
+        ]
+    },
+    {
+        "id": "ffff2bf5.41af2",
+        "type": "mqtt in",
+        "z": "cc7a15ad.2c246",
+        "name": "",
+        "topic": "status/Self",
+        "qos": "2",
+        "broker": "10461a06.ba0756",
+        "x": 780,
+        "y": 40,
+        "wires": [
+            [
+                "bd6f8586.31ab88"
+            ]
+        ]
+    },
+    {
+        "id": "4645e384.579a8c",
+        "type": "ui_template",
+        "z": "cc7a15ad.2c246",
+        "group": "c5694bf6.f04218",
+        "name": "Status",
+        "order": 5,
+        "width": "4",
+        "height": "1",
+        "format": "<style>\n.led {\n    margin: 0 auto;\n    width: 24px;\n    height: 24px;\n    border-radius: 50%;\n}\n.gray {\n    background-color: #cccccc;\n}\n</style>\n<table width=\"100%\">\n<tr>\n    <td width=\"99%\">Status</td>\n    <td>\n        <div class=\"led gray\" style=\"background-color:{{msg.payload}}\"></div>\n    </td>\n</tr>\n</table>",
+        "storeOutMessages": false,
+        "fwdInMessages": true,
+        "templateScope": "local",
+        "x": 790,
+        "y": 220,
+        "wires": [
+            [
+                "d386e72e.40884"
+            ]
+        ]
+    },
+    {
+        "id": "bd6f8586.31ab88",
+        "type": "function",
+        "z": "cc7a15ad.2c246",
+        "name": "Status",
+        "func": "if (msg.payload === \"connected\") {\n    msg.payload = \"green\";\n}\nelse if (msg.payload === \"disconnected\") {\n    msg.payload = \"gray\";\n}\nelse {\n    msg.payload = \"red\";\n}\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 790,
+        "y": 160,
+        "wires": [
+            [
+                "4645e384.579a8c"
+            ]
+        ]
+    },
+    {
+        "id": "80abee4.ecef59",
+        "type": "mqtt in",
+        "z": "cc7a15ad.2c246",
+        "name": "",
+        "topic": "status/#",
+        "qos": "2",
+        "broker": "10461a06.ba0756",
+        "x": 980,
+        "y": 40,
+        "wires": [
+            [
+                "6719574e.dab168"
+            ]
+        ]
+    },
+    {
+        "id": "6719574e.dab168",
+        "type": "function",
+        "z": "cc7a15ad.2c246",
+        "name": "connected",
+        "func": "msg.payload = \"connected\";\nreturn msg;\n",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 990,
+        "y": 100,
+        "wires": [
+            [
+                "bd6f8586.31ab88"
+            ]
+        ]
+    },
+    {
+        "id": "d386e72e.40884",
+        "type": "debug",
+        "z": "cc7a15ad.2c246",
+        "name": "Status",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": true,
+        "complete": "payload",
+        "x": 790,
+        "y": 280,
+        "wires": []
+    },
+    {
+        "id": "2012af0d.94e12",
+        "type": "msg-router",
+        "z": "cbd1d226.66aa68",
+        "routerType": "broadcast",
+        "topicDependent": false,
+        "counterReset": false,
+        "msgKeyField": "payload",
+        "undefinedHash": false,
+        "outputsInfo": [
+            {
+                "active": true,
+                "clone": false,
+                "delay": "0",
+                "weight": "0"
+            },
+            {
+                "active": true,
+                "clone": false,
+                "delay": "0",
+                "weight": "0"
+            }
+        ],
+        "name": "",
+        "delaying": "unrelated",
+        "msgControl": false,
+        "outputs": 2,
+        "x": 770,
+        "y": 200,
+        "wires": [
+            [
+                "a57c6f6b.aab9a8"
+            ],
+            [
+                "943471a2.e1e7e"
+            ]
+        ]
+    },
+    {
+        "id": "a57c6f6b.aab9a8",
+        "type": "mqtt out",
+        "z": "cbd1d226.66aa68",
+        "name": "",
+        "topic": "control/Store1",
+        "qos": "0",
+        "retain": "true",
+        "broker": "10461a06.ba0756",
+        "x": 1000,
+        "y": 180,
+        "wires": []
+    },
+    {
+        "id": "943471a2.e1e7e",
+        "type": "mqtt out",
+        "z": "cbd1d226.66aa68",
+        "name": "",
+        "topic": "control/Store2",
+        "qos": "0",
+        "retain": "true",
+        "broker": "10461a06.ba0756",
+        "x": 1000,
+        "y": 220,
+        "wires": []
+    },
+    {
+        "id": "43f1368.4e26c48",
+        "type": "inject",
+        "z": "cbd1d226.66aa68",
+        "name": "ON",
+        "topic": "",
+        "payload": "true",
+        "payloadType": "bool",
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "x": 550,
+        "y": 160,
+        "wires": [
+            [
+                "2012af0d.94e12"
+            ]
+        ]
+    },
+    {
+        "id": "251fc711.da0f38",
+        "type": "inject",
+        "z": "cbd1d226.66aa68",
+        "name": "OFF",
+        "topic": "",
+        "payload": "false",
+        "payloadType": "bool",
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "x": 550,
+        "y": 240,
+        "wires": [
+            [
+                "2012af0d.94e12"
+            ]
+        ]
+    },
+    {
+        "id": "569087c3.c445c",
+        "type": "comment",
+        "z": "cbd1d226.66aa68",
+        "name": "Upper Level Store",
+        "info": "",
+        "x": 530,
+        "y": 100,
+        "wires": []
+    },
+    {
+        "id": "d592c6a8.51da1",
+        "type": "ui_switch",
+        "z": "cbd1d226.66aa68",
+        "name": "Store 1",
+        "label": "Store 1",
+        "tooltip": "",
+        "group": "38feb799.4b4e8",
+        "order": 4,
+        "width": 0,
+        "height": 0,
+        "passthru": false,
+        "decouple": "true",
+        "topic": "",
+        "style": "",
+        "onvalue": "true",
+        "onvalueType": "bool",
+        "onicon": "",
+        "oncolor": "",
+        "offvalue": "false",
+        "offvalueType": "bool",
+        "officon": "",
+        "offcolor": "",
+        "x": 540,
+        "y": 200,
+        "wires": [
+            [
+                "2012af0d.94e12"
+            ]
+        ]
+    },
+    {
+        "id": "aaf085ff.7a98d",
+        "type": "mqtt in",
+        "z": "cbd1d226.66aa68",
+        "name": "",
+        "topic": "status/Store2",
+        "qos": "2",
+        "broker": "10461a06.ba0756",
+        "x": 130,
+        "y": 200,
+        "wires": [
+            [
+                "a00dbfd.3558cc"
+            ]
+        ]
+    },
+    {
+        "id": "a00dbfd.3558cc",
+        "type": "function",
+        "z": "cbd1d226.66aa68",
+        "name": "toBool",
+        "func": "if (msg.payload === \"true\") {\n    msg.payload = true;\n}\nelse{\n    msg.payload = false;\n}\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 310,
+        "y": 200,
+        "wires": [
+            [
+                "d592c6a8.51da1"
+            ]
+        ]
+    },
+    {
+        "id": "8e387615.c12d1",
+        "type": "subflow:cbd1d226.66aa68",
+        "z": "cc7a15ad.2c246",
+        "name": "",
+        "x": 420,
+        "y": 280,
+        "wires": []
+    }
+]

@@ -1,0 +1,4 @@
+[submodule "Driver/lib/OS"]
+	path = Driver/lib/OS
+	url = https://github.com/edmw/arduino-os.git
+	branch = master
